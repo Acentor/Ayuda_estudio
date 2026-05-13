@@ -70,5 +70,49 @@
   {
     "tema": "Tiro Oblicuo",
     "info": "El alcance máximo de un proyectil se logra disparándolo con un ángulo de 45 grados respecto al suelo."
+  },
+  {
+    "tema": "Conversión de Unidades",
+    "info": "Para pasar de km/h a m/s de forma rápida, puedes dividir la velocidad por 3,6. Por ejemplo: 72 km/h ÷ 3,6 = 20 m/s."
+  },
+  {
+    "tema": "MRU - Velocidad",
+    "info": "La fórmula V = Δx / Δt nos dice que la velocidad es simplemente el ritmo al que cambias de posición en un tiempo determinado."
+  },
+  {
+    "tema": "MRU - Encuentro",
+    "info": "Para calcular el tiempo de encuentro entre dos móviles que van uno hacia el otro, se suman sus velocidades y se divide la distancia total por ese resultado."
+  },
+  {
+    "tema": "MRUV - Aceleración",
+    "info": "La fórmula a = (Vf - Vo) / t calcula cuántos metros por segundo cambia la velocidad del móvil por cada segundo que transcurre."
+  },
+  {
+    "tema": "MRUV - Posición",
+    "info": "En la fórmula x = xo + vo·t + ½·a·t², el término '½·a·t²' es el que genera la curva en la gráfica, indicando que la distancia aumenta más rápido a medida que el móvil acelera."
+  },
+  {
+    "tema": "Caída Libre - Gravedad",
+    "info": "En caída libre, la velocidad final se calcula como g · t. Esto significa que en la Tierra, cada segundo que algo cae, su velocidad aumenta unos 10 m/s aproximadamente."
+  },
+  {
+    "tema": "Caída Libre - Altura",
+    "info": "Para saber desde qué altura cayó un objeto sin usar cronómetro, si conoces la velocidad de impacto, puedes usar la fórmula: h = Vf² / (2 · g)."
+  },
+  {
+    "tema": "Tiro Vertical - Altura Máxima",
+    "info": "La altura máxima se alcanza cuando la velocidad llega a cero. Se calcula con h_max = (Vo²) / (2 · g). ¡A mayor velocidad inicial, la altura crece al cuadrado!"
+  },
+  {
+    "tema": "Tiro Oblicuo - Componente X",
+    "info": "La velocidad horizontal (Vx = Vo · cos α) nunca cambia durante el vuelo porque no hay aceleración en el eje X (despreciando el aire)."
+  },
+  {
+    "tema": "Tiro Oblicuo - Componente Y",
+    "info": "La componente vertical (Vy = Vo · sen α) es la que determina cuánto tiempo permanece el proyectil en el aire y qué tan alto llegará."
+  },
+  {
+    "tema": "Tiro Oblicuo - Alcance",
+    "info": "El alcance horizontal total se calcula multiplicando la velocidad horizontal (Vx) por el tiempo total que el objeto estuvo en el aire."
   }
 ]

@@ -1,0 +1,1072 @@
+[
+  {
+    "pregunta": "¿Qué estudia la informática?",
+    "opciones": [
+      "El tratamiento automático de la información",
+      "La fabricación de hardware",
+      "La reparación de redes eléctricas",
+      "La edición de imágenes"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal de un sistema informático?",
+    "opciones": [
+      "Resolver problemas de los usuarios",
+      "Fabricar dispositivos electrónicos",
+      "Diseñar videojuegos",
+      "Controlar únicamente internet"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes es un componente de un sistema informático?",
+    "opciones": [
+      "Hardware",
+      "Combustible",
+      "Pintura",
+      "Energía solar"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el hardware?",
+    "opciones": [
+      "La parte física de la computadora",
+      "Los programas de la computadora",
+      "Los datos almacenados",
+      "Las instrucciones del usuario"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes es un ejemplo de hardware?",
+    "opciones": [
+      "CPU",
+      "Windows",
+      "Google Chrome",
+      "WhatsApp"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el software?",
+    "opciones": [
+      "El conjunto de programas que indican al hardware qué hacer",
+      "La parte metálica de la PC",
+      "Un tipo de memoria RAM",
+      "Un cable de red"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué son los datos?",
+    "opciones": [
+      "Representaciones simbólicas sin procesar",
+      "Información procesada",
+      "Programas ejecutables",
+      "Dispositivos físicos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es la información?",
+    "opciones": [
+      "Datos procesados con significado",
+      "Datos sin contexto",
+      "Un dispositivo de entrada",
+      "Un tipo de software"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es un ejemplo de información?",
+    "opciones": [
+      "Juan tiene 25 años",
+      "25",
+      "8, 6, 9",
+      "ABC123"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué realiza un procedimiento dentro de un sistema informático?",
+    "opciones": [
+      "Define pasos y reglas de uso",
+      "Procesa gráficos",
+      "Almacena información",
+      "Ejecuta cálculos matemáticos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ocurre después del procesamiento de datos?",
+    "opciones": [
+      "Se obtiene información",
+      "Se destruye el hardware",
+      "Se apaga el sistema",
+      "Se eliminan los programas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué dispositivo puede considerarse una computadora?",
+    "opciones": [
+      "Smartphone",
+      "Martillo",
+      "Televisor analógico antiguo",
+      "Calculadora solar simple"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es un programa?",
+    "opciones": [
+      "Una secuencia de instrucciones",
+      "Un dispositivo físico",
+      "Un archivo multimedia",
+      "Un tipo de memoria"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la unidad mínima de almacenamiento?",
+    "opciones": [
+      "Bit",
+      "Byte",
+      "KB",
+      "GB"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuántos bits tiene un byte?",
+    "opciones": [
+      "8",
+      "2",
+      "16",
+      "32"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué sistema numérico utilizan las computadoras?",
+    "opciones": [
+      "Binario",
+      "Decimal",
+      "Hexadecimal",
+      "Romano"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué valores puede almacenar un bit?",
+    "opciones": [
+      "0 o 1",
+      "0 al 9",
+      "A o B",
+      "Verdadero solamente"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Por qué se usa el sistema binario en computación?",
+    "opciones": [
+      "Porque es más fiable electrónicamente",
+      "Porque ocupa más espacio",
+      "Porque es más lento",
+      "Porque no utiliza corriente eléctrica"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente electrónico funciona como interruptor binario?",
+    "opciones": [
+      "Transistor",
+      "Ventilador",
+      "Disco duro",
+      "Fuente ATX"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué permite el álgebra de Boole?",
+    "opciones": [
+      "Diseñar circuitos lógicos",
+      "Crear impresoras",
+      "Diseñar teclados",
+      "Editar imágenes"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál fue el primer dispositivo de cálculo manual?",
+    "opciones": [
+      "Ábaco",
+      "ENIAC",
+      "Pascalina",
+      "UNIVAC"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Quién creó la Pascalina?",
+    "opciones": [
+      "Blaise Pascal",
+      "Alan Turing",
+      "Charles Babbage",
+      "John von Neumann"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operaciones realizaba la Pascalina?",
+    "opciones": [
+      "Suma y resta",
+      "División y raíces",
+      "Solo multiplicación",
+      "Procesamiento gráfico"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Quién diseñó el Motor Analítico?",
+    "opciones": [
+      "Charles Babbage",
+      "Alan Turing",
+      "Bill Gates",
+      "Steve Jobs"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué introdujo el Motor Analítico?",
+    "opciones": [
+      "El concepto de programación",
+      "La conexión WiFi",
+      "El sistema operativo",
+      "La inteligencia artificial"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Quién escribió el primer algoritmo para una máquina?",
+    "opciones": [
+      "Ada Lovelace",
+      "Grace Hopper",
+      "Blaise Pascal",
+      "Linus Torvalds"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué propuso Alan Turing en 1936?",
+    "opciones": [
+      "La Máquina de Turing",
+      "El transistor",
+      "La Pascalina",
+      "La IBM PC"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué concepto estableció la Máquina de Turing?",
+    "opciones": [
+      "El algoritmo como secuencia de instrucciones",
+      "La memoria RAM",
+      "La computación cuántica",
+      "El internet"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué era Enigma?",
+    "opciones": [
+      "Una máquina de cifrado alemana",
+      "Una impresora",
+      "Una calculadora mecánica",
+      "Una red social"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué fue Colossus?",
+    "opciones": [
+      "La primera computadora digital programable electrónica",
+      "La primera notebook",
+      "La primera consola",
+      "Un sistema operativo"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál fue la primera computadora electrónica de propósito general?",
+    "opciones": [
+      "ENIAC",
+      "UNIVAC",
+      "IBM 1401",
+      "Macintosh"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuánto pesaba aproximadamente la ENIAC?",
+    "opciones": [
+      "30 toneladas",
+      "3 toneladas",
+      "300 kg",
+      "1 tonelada"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué utilizaba la ENIAC para funcionar?",
+    "opciones": [
+      "Válvulas de vacío",
+      "Microchips VLSI",
+      "GPU",
+      "Discos SSD"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué problema resolvía originalmente la ENIAC?",
+    "opciones": [
+      "Cálculos balísticos",
+      "Edición de video",
+      "Procesamiento de imágenes",
+      "Diseño web"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué propuso la arquitectura Von Neumann?",
+    "opciones": [
+      "Guardar programas y datos en la misma memoria",
+      "Eliminar la memoria RAM",
+      "Usar únicamente tarjetas perforadas",
+      "Crear internet"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componentes incluye la arquitectura Von Neumann?",
+    "opciones": [
+      "CPU, memoria y entrada/salida",
+      "Solo monitor y teclado",
+      "CPU y batería",
+      "GPU y mouse"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué fue UNIVAC I?",
+    "opciones": [
+      "La primera computadora comercial",
+      "La primera laptop",
+      "El primer navegador web",
+      "Un sistema operativo"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tecnología de almacenamiento utilizaba UNIVAC I?",
+    "opciones": [
+      "Cintas magnéticas",
+      "Pendrives",
+      "DVD",
+      "Memorias SD"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál fue una característica de la primera generación de computadoras?",
+    "opciones": [
+      "Uso de válvulas de vacío",
+      "Uso de SSD NVMe",
+      "Uso de IA",
+      "Uso de GPU modernas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué reemplazó a los bulbos en la segunda generación?",
+    "opciones": [
+      "Transistores",
+      "Tarjetas perforadas",
+      "Disquetes",
+      "Memorias USB"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué lenguajes aparecieron en la segunda generación?",
+    "opciones": [
+      "FORTRAN y COBOL",
+      "Java y Python",
+      "C# y Kotlin",
+      "HTML y CSS"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué empresa desarrolló la IBM 1401?",
+    "opciones": [
+      "IBM",
+      "Apple",
+      "Microsoft",
+      "Intel"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué introdujo la tercera generación?",
+    "opciones": [
+      "Circuitos integrados",
+      "Válvulas de vacío",
+      "Disquetes",
+      "Inteligencia artificial"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué permitió un circuito integrado?",
+    "opciones": [
+      "Integrar muchos transistores en un chip",
+      "Eliminar la memoria",
+      "Conectar internet",
+      "Crear teclados"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué sistema revolucionó la tercera generación?",
+    "opciones": [
+      "IBM System/360",
+      "Windows XP",
+      "MS-DOS",
+      "Linux"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa VLSI?",
+    "opciones": [
+      "Integración a muy gran escala",
+      "Velocidad lógica simple integrada",
+      "Video local de sistema inteligente",
+      "Virtual Logic System Interface"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué procesador utilizaba la IBM PC original?",
+    "opciones": [
+      "Intel 8088",
+      "Intel i9",
+      "AMD Ryzen",
+      "Motorola 68000"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué popularizó Apple Macintosh?",
+    "opciones": [
+      "La interfaz gráfica y el mouse",
+      "Las tarjetas perforadas",
+      "El sistema binario",
+      "Los tubos de vacío"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué fue ARPANET?",
+    "opciones": [
+      "El origen de internet",
+      "Un sistema operativo",
+      "Una computadora militar",
+      "Un procesador"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Quién creó el primer email?",
+    "opciones": [
+      "Ray Tomlinson",
+      "Alan Turing",
+      "Steve Jobs",
+      "Bill Gates"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo adoptó ARPANET en 1983?",
+    "opciones": [
+      "TCP/IP",
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Quién creó la World Wide Web?",
+    "opciones": [
+      "Tim Berners-Lee",
+      "John von Neumann",
+      "Charles Babbage",
+      "Dennis Ritchie"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente es conocido como el cerebro de la computadora?",
+    "opciones": [
+      "CPU",
+      "RAM",
+      "Fuente",
+      "Gabinete"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es una función de la CPU?",
+    "opciones": [
+      "Ejecutar instrucciones",
+      "Imprimir documentos",
+      "Almacenar energía",
+      "Conectar cables"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa ALU?",
+    "opciones": [
+      "Unidad Aritmético Lógica",
+      "Unidad de Audio Local",
+      "Almacenamiento Lógico Universal",
+      "Unidad Analógica Lineal"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el chipset?",
+    "opciones": [
+      "Conjunto de circuitos que coordina la comunicación",
+      "Un sistema operativo",
+      "Una memoria externa",
+      "Una tarjeta gráfica"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué coordina el chipset?",
+    "opciones": [
+      "CPU, RAM y dispositivos",
+      "Solo el monitor",
+      "Solo el teclado",
+      "Solo la impresora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cómo se llaman las ranuras destinadas a alojar memoria RAM?",
+    "opciones": [
+      "Memory slots",
+      "PCIe",
+      "Sockets USB",
+      "Puertos SATA"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de ranura de memoria es actual?",
+    "opciones": [
+      "DIMM",
+      "SIMM",
+      "AGP",
+      "ISA"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de memoria usan comúnmente las computadoras actuales?",
+    "opciones": [
+      "DDR4 y DDR5",
+      "SDRAM únicamente",
+      "SIMM",
+      "DDR1"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de memoria se utiliza en notebooks?",
+    "opciones": [
+      "SO-DIMM",
+      "DIMM",
+      "PCIe",
+      "AGP"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Para qué sirven las ranuras de expansión?",
+    "opciones": [
+      "Agregar nuevas capacidades al sistema",
+      "Almacenar energía",
+      "Instalar el sistema operativo",
+      "Conectar el monitor"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tecnología de expansión es la más utilizada actualmente?",
+    "opciones": [
+      "PCI Express",
+      "AGP",
+      "ISA",
+      "VLB"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de dispositivo suele utilizar PCIe x16?",
+    "opciones": [
+      "Tarjeta gráfica",
+      "Mouse",
+      "Teclado",
+      "Impresora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa SATA?",
+    "opciones": [
+      "Serial Advanced Technology Attachment",
+      "Simple Access Transfer Architecture",
+      "Storage Automatic Transfer Access",
+      "System Advanced Technology Adapter"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué dispositivos se conectan mediante SATA?",
+    "opciones": [
+      "HDD y SSD",
+      "Monitores",
+      "Procesadores",
+      "Memorias RAM"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la velocidad máxima de SATA III?",
+    "opciones": [
+      "6 Gb/s",
+      "1.5 Gb/s",
+      "3 Gb/s",
+      "12 Gb/s"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ventaja tiene SATA frente a PATA?",
+    "opciones": [
+      "Mayor velocidad",
+      "Mayor tamaño físico",
+      "Menor estabilidad",
+      "Mayor consumo energético"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es M.2?",
+    "opciones": [
+      "Un formato compacto para dispositivos internos",
+      "Un tipo de monitor",
+      "Una memoria RAM",
+      "Un sistema operativo"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué interfaz puede utilizar M.2 para mayor velocidad?",
+    "opciones": [
+      "PCI Express",
+      "PS/2",
+      "VGA",
+      "IDE"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo moderno utiliza M.2 NVMe?",
+    "opciones": [
+      "NVMe",
+      "SMTP",
+      "FTP",
+      "POP3"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ventaja tiene M.2 NVMe?",
+    "opciones": [
+      "Mayor velocidad de transferencia",
+      "Mayor tamaño",
+      "Menor rendimiento",
+      "Uso obligatorio de cables"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué hace la fuente de alimentación?",
+    "opciones": [
+      "Convierte corriente alterna en continua",
+      "Procesa gráficos",
+      "Almacena datos",
+      "Ejecuta programas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es un conector típico de la fuente?",
+    "opciones": [
+      "ATX de 24 pines",
+      "HDMI",
+      "RJ45",
+      "PS/2"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué certificación indica alta eficiencia energética en fuentes?",
+    "opciones": [
+      "80 Plus Gold",
+      "ISO 9001",
+      "PCIe",
+      "DDR5"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ventaja ofrece una fuente certificada?",
+    "opciones": [
+      "Menor generación de calor",
+      "Mayor ruido",
+      "Mayor consumo",
+      "Menor vida útil"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué hace el generador de clock?",
+    "opciones": [
+      "Sincroniza los componentes",
+      "Almacena archivos",
+      "Imprime documentos",
+      "Conecta internet"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa 1 GHz?",
+    "opciones": [
+      "1.000.000.000 ciclos por segundo",
+      "100 ciclos por segundo",
+      "1 millón de bytes",
+      "1024 bits"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué controla realmente las operaciones dentro de la CPU?",
+    "opciones": [
+      "La Unidad de Control",
+      "La fuente",
+      "La batería CMOS",
+      "El monitor"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el BIOS?",
+    "opciones": [
+      "Firmware que inicia el sistema",
+      "Un navegador web",
+      "Una memoria RAM",
+      "Una tarjeta gráfica"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué prueba realiza el POST?",
+    "opciones": [
+      "Verificación inicial del hardware",
+      "Conexión a internet",
+      "Actualización del sistema",
+      "Instalación de programas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué configuración puede modificarse en BIOS/UEFI?",
+    "opciones": [
+      "Orden de arranque",
+      "Color del gabinete",
+      "Tamaño del escritorio físico",
+      "Tipo de monitor externo"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Dónde se almacenan las configuraciones del BIOS?",
+    "opciones": [
+      "CMOS",
+      "RAM",
+      "GPU",
+      "SSD"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué hace el bootloader?",
+    "opciones": [
+      "Carga el sistema operativo",
+      "Enfría el procesador",
+      "Controla el mouse",
+      "Gestiona la batería"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el bootloader típico de Linux?",
+    "opciones": [
+      "GRUB",
+      "Bootmgr",
+      "Explorer",
+      "Finder"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa UEFI?",
+    "opciones": [
+      "Unified Extensible Firmware Interface",
+      "Universal Electronic Firmware Input",
+      "User External Firmware Interface",
+      "Unified External File Integration"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ventaja tiene UEFI sobre BIOS?",
+    "opciones": [
+      "Arranque más rápido",
+      "Menor compatibilidad",
+      "Mayor lentitud",
+      "No soporta discos grandes"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué sistema de particiones utiliza UEFI?",
+    "opciones": [
+      "GPT",
+      "FAT16",
+      "EXT2",
+      "NTFS"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ventaja ofrece GPT?",
+    "opciones": [
+      "Soporte para discos mayores a 2 TB",
+      "Menor cantidad de particiones",
+      "Menor confiabilidad",
+      "Compatibilidad solo con BIOS"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué almacena la memoria CMOS?",
+    "opciones": [
+      "Configuraciones del BIOS",
+      "Películas",
+      "Programas instalados",
+      "Drivers gráficos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué mantiene alimentada a la CMOS?",
+    "opciones": [
+      "Una batería",
+      "El procesador",
+      "La RAM",
+      "La GPU"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué hace el procedimiento Clear CMOS?",
+    "opciones": [
+      "Restaura la configuración predeterminada",
+      "Instala Windows",
+      "Aumenta la RAM",
+      "Formatea el disco"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué suele reiniciarse al borrar la CMOS?",
+    "opciones": [
+      "Fecha y hora",
+      "La pantalla",
+      "La GPU",
+      "El gabinete"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué permiten los conectores de entrada/salida?",
+    "opciones": [
+      "La comunicación con periféricos",
+      "El almacenamiento de energía",
+      "La refrigeración",
+      "La limpieza del sistema"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué puerto era común en placas madre antiguas para video analógico?",
+    "opciones": [
+      "VGA",
+      "HDMI",
+      "DisplayPort",
+      "Thunderbolt"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué puerto actual transmite video y audio digital?",
+    "opciones": [
+      "HDMI",
+      "PS/2",
+      "COM",
+      "LPT"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué conector se utiliza para redes Ethernet?",
+    "opciones": [
+      "RJ45",
+      "HDMI",
+      "USB",
+      "VGA"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué puerto moderno ofrece alta velocidad y múltiples funciones?",
+    "opciones": [
+      "USB-C",
+      "PS/2",
+      "LPT",
+      "COM"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tecnología inalámbrica incluyen muchas placas modernas?",
+    "opciones": [
+      "WiFi y Bluetooth",
+      "Fax",
+      "Dial-up",
+      "Infrarrojo exclusivamente"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente almacena temporalmente datos e instrucciones en uso?",
+    "opciones": [
+      "RAM",
+      "BIOS",
+      "Fuente",
+      "Gabinete"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa CPU?",
+    "opciones": [
+      "Unidad Central de Procesamiento",
+      "Control Principal Universal",
+      "Unidad de Programa Central",
+      "Procesador de Conexión Universal"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente realiza operaciones aritméticas y lógicas?",
+    "opciones": [
+      "ALU",
+      "BIOS",
+      "SSD",
+      "CMOS"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de almacenamiento es más rápido actualmente en PCs modernas?",
+    "opciones": [
+      "SSD NVMe",
+      "Disquete",
+      "Cinta magnética",
+      "CD-ROM"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa PCIe?",
+    "opciones": [
+      "PCI Express",
+      "Peripheral Cable Interface",
+      "Primary Component Integration",
+      "Processor Communication Extension"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente permite iniciar el sistema operativo?",
+    "opciones": [
+      "Bootloader",
+      "Mouse",
+      "Ventilador",
+      "GPU"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa GUI?",
+    "opciones": [
+      "Interfaz Gráfica de Usuario",
+      "Gestión Universal Informática",
+      "Grupo Unificado de Internet",
+      "Gráfico Universal Integrado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué caracteriza a la quinta generación de computadoras?",
+    "opciones": [
+      "IA y movilidad",
+      "Uso de válvulas",
+      "Tarjetas perforadas",
+      "Sistemas mecánicos"
+    ],
+    "correcta": 0
+  }
+]

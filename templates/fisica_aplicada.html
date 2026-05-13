@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Física Aplicada a Sistemas Tecnológicos</title>
+    <style>
+        :root {
+            --primary: #4a90e2;
+            --bg: #f4f7f6;
+            --card: #ffffff;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); display: flex; justify-content: center; padding: 20px; }
+        #quiz-container { background: var(--card); width: 100%; max-width: 600px; padding: 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; }
+        .pregunta-block { margin-bottom: 25px; padding-bottom: 15px; border-bottom: 1px solid #eee; }
+        .opciones-list { list-style: none; padding: 0; }
+        .opcion-item { margin: 8px 0; }
+        label { cursor: pointer; display: block; padding: 10px; border: 1px solid #ddd; border-radius: 6px; transition: 0.2s; }
+        label:hover { background: #f0f7ff; border-color: var(--primary); }
+        input[type="radio"] { margin-right: 10px; }
+        #btn-finalizar { width: 100%; padding: 15px; background: var(--primary); color: white; border: none; border-radius: 6px; font-size: 1.1rem; cursor: pointer; }
+        #resultado { margin-top: 20px; display: none; }
+        .correcta-info { font-size: 0.9rem; color: #27ae60; margin-top: 5px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div id="quiz-container">
+    <h1>Desafío de 10 Preguntas</h1>
+    <div id="preguntas-wrapper"></div>
+    <button id="btn-finalizar">Finalizar y Ver Nota</button>
+
+    <div id="resultado">
+        <hr>
+        <h2>Tu Resultado: <span id="nota"></span>/10</h2>
+        <button onclick="location.reload()">Reintentar</button>
+    </div>
+</div>
+
+<script src="../static/js/s_fisica_aplicada.js"></script>
+</body>
+</html>

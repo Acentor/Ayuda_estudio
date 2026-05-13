@@ -1,0 +1,592 @@
+[
+  {
+    "pregunta": "¿Qué rama de la ciencia se describía antiguamente como 'filosofía natural'?",
+    "opciones": ["La Biología", "La Física", "La Química", "La Geología"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el texto, ¿en qué siglo la ciencia hizo sus mayores progresos al usar matemáticas?",
+    "opciones": ["Siglo XX", "Siglo XVIII", "Siglo XVI", "Siglo XII"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la definición de 'Magnitud'?",
+    "opciones": ["Una opinión sobre un objeto", "Todo aquello que puede ser medido", "El color de un cuerpo", "La belleza de un fenómeno"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una magnitud básica del SI?",
+    "opciones": ["Velocidad", "Fuerza", "Longitud", "Aceleración"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué unidad representa la Intensidad Lumínica?",
+    "opciones": ["Kelvin", "Mol", "Candela", "Ampere"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Convertir 42.3 cm a metros:",
+    "opciones": ["4.23 m", "0.423 m", "423 m", "0.0423 m"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Convertir 21 km a metros:",
+    "opciones": ["2100 m", "21000 m", "210 m", "2.1 m"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un maratonista recorre 14 km, ¿cuántos metros ha recorrido?",
+    "opciones": ["1400 m", "14000 m", "140 m", "1.4 m"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuántos m² son 10,000 cm²?",
+    "opciones": ["1 m²", "10 m²", "100 m²", "0.1 m²"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Convertir 72 km/h a m/s usando el factor de conversión:",
+    "opciones": ["10 m/s", "15 m/s", "20 m/s", "25 m/s"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Convertir 30 m/s a km/h:",
+    "opciones": ["100 km/h", "108 km/h", "90 km/h", "120 km/h"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué significa SIMELA?",
+    "opciones": ["Sistema Métrico Latino", "Sistema Métrico Legal Argentino", "Sistema Medición Laboral", "Sistema de Medidas Local"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En cinemática, ¿qué se entiende por 'cuerpos inertes'?",
+    "opciones": ["Cuerpos que se mueven solos", "Cuerpos que necesitan interacción para moverse", "Cuerpos con vida propia", "Cuerpos que no tienen masa"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un pasajero en un tren está en reposo respecto al vagón pero en movimiento respecto a la estación. Esto demuestra que:",
+    "opciones": ["El movimiento es absoluto", "El movimiento es relativo", "La estación se mueve realmente", "El tiempo se detiene"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es la trayectoria?",
+    "opciones": ["La velocidad del móvil", "La línea que une las distintas posiciones de un móvil", "El tiempo total del viaje", "La aceleración media"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el MRU, la velocidad es:",
+    "opciones": ["Variable", "Cero", "Constante", "Proporcional al cuadrado del tiempo"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Fórmula para calcular la velocidad en MRU:",
+    "opciones": ["v = d * t", "v = d / t", "v = a * t", "v = d + t"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un móvil recorre 60 km en 0.5 h. Su velocidad es:",
+    "opciones": ["30 km/h", "120 km/h", "60 km/h", "90 km/h"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un auto viaja a 20 m/s durante 10 s, ¿qué distancia recorre?",
+    "opciones": ["2 m", "200 m", "100 m", "2000 m"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En una gráfica Posición vs Tiempo (x-t) de MRU, la línea es:",
+    "opciones": ["Una parábola", "Una recta inclinada", "Una curva irregular", "Una recta horizontal"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En una gráfica Velocidad vs Tiempo (v-t) de MRU, la línea es:",
+    "opciones": ["Una recta horizontal", "Una recta inclinada", "Una vertical", "Una curva"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Dos móviles separados 60 km van al encuentro a 70 km/h y 50 km/h. ¿Tiempo de encuentro?",
+    "opciones": ["1 h", "0.5 h", "2 h", "1.5 h"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un móvil tiene una ecuación x = 4 + 2t, ¿cuál es su posición inicial?",
+    "opciones": ["0 m", "2 m", "4 m", "6 m"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué magnitud física mide el cambio de velocidad en el tiempo?",
+    "opciones": ["Fuerza", "Aceleración", "Posición", "Energía"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el MRUV, la aceleración es:",
+    "opciones": ["Variable", "Cero", "Constante", "Negativa siempre"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Fórmula de la aceleración:",
+    "opciones": ["a = (Vf - Vo) / t", "a = Vf + Vo", "a = d / t", "a = V * t"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un móvil parte del reposo. Su velocidad inicial (Vo) es:",
+    "opciones": ["10 m/s", "1 m/s", "0 m/s", "9.8 m/s"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un auto frena de 20 m/s a 0 m/s en 5 s. Su aceleración es:",
+    "opciones": ["4 m/s²", "-4 m/s²", "100 m/s²", "2 m/s²"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un móvil acelera a 2 m/s² desde el reposo, ¿qué distancia recorre en 4 s?",
+    "opciones": ["8 m", "16 m", "32 m", "4 m"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el valor de la gravedad (g) que propone el texto para simplificar cálculos?",
+    "opciones": ["9.8 m/s²", "10 m/s²", "1 m/s²", "9.81 m/s²"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En caída libre, si soltamos una piedra y una pluma en el vacío:",
+    "opciones": ["La piedra cae antes", "La pluma flota", "Cae primero la más pesada", "Ambas caen juntas"],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Un objeto se deja caer y tarda 3 s en tocar el suelo. Velocidad final (g=10):",
+    "opciones": ["15 m/s", "30 m/s", "60 m/s", "3 m/s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En tiro vertical, ¿cuál es la aceleración mientras el objeto sube?",
+    "opciones": ["Positiva", "Cero", "9.8 m/s² hacia abajo", "9.8 m/s² hacia arriba"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un niño lanza una piedra hacia arriba a 20 m/s. ¿Cuánto tarda en llegar al punto más alto? (g=10)",
+    "opciones": ["1 s", "2 s", "4 s", "0.5 s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de trayectoria tiene un proyectil en un tiro oblicuo?",
+    "opciones": ["Rectilínea", "Circular", "Parabólica", "Elíptica"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En tiro oblicuo, la velocidad en el eje X es:",
+    "opciones": ["Variable", "Constante (MRU)", "Cero", "Igual a la gravedad"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En tiro oblicuo, la velocidad en el eje Y es:",
+    "opciones": ["Constante", "Variable (MRUV)", "Siempre positiva", "Inexistente"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para un ángulo de 30°, la componente Vox se calcula como:",
+    "opciones": ["Vo * sen(30°)", "Vo * cos(30°)", "Vo * tg(30°)", "Vo / cos(30°)"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿A qué ángulo se obtiene el alcance máximo en un tiro oblicuo?",
+    "opciones": ["30°", "45°", "60°", "90°"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un proyectil tarda 5 s en subir, ¿cuánto tarda en total en volver al suelo?",
+    "opciones": ["5 s", "2.5 s", "10 s", "0 s"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un móvil viaja a 36 km/h. En m/s es:",
+    "opciones": ["10 m/s", "3.6 m/s", "360 m/s", "1 m/s"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un gráfico v-t, el área bajo la curva representa:",
+    "opciones": ["La aceleración", "El tiempo", "La distancia recorrida", "La fuerza"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué instrumento se usa para medir la masa?",
+    "opciones": ["Cronómetro", "Balanza", "Cinta métrica", "Termómetro"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si la aceleración es negativa, el móvil está:",
+    "opciones": ["Acelerando", "Frenando", "En reposo", "Yendo a velocidad constante"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Convertir 0.58 km a metros:",
+    "opciones": ["58 m", "580 m", "5800 m", "5.8 m"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cómo se llama el cambio de posición de un cuerpo?",
+    "opciones": ["Distancia", "Desplazamiento", "Movimiento", "Trayectoria"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La unidad de medida de la temperatura en el SI es:",
+    "opciones": ["Celsius", "Fahrenheit", "Kelvin", "Calorías"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un microsegundo equivale a:",
+    "opciones": ["10^-3 s", "10^-6 s", "10^-9 s", "10^-12 s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En tiro vertical, al bajar la velocidad es:",
+    "opciones": ["Positiva (según sist. de referencia)", "Cero siempre", "Negativa siempre", "Igual a la de subida"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si un objeto cae durante 1 s, ¿qué distancia recorre? (g=10)",
+    "opciones": ["10 m", "5 m", "1 m", "20 m"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es la velocidad media?",
+    "opciones": ["La velocidad inicial", "El promedio de velocidades", "Desplazamiento total entre tiempo total", "La velocidad final"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un tren de 100m cruza un túnel de 200m a 10m/s. ¿Cuánto tarda?",
+    "opciones": ["20 s", "10 s", "30 s", "40 s"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el MRUV, si v=Vo+at, y el móvil frena, 'a' debe ser:",
+    "opciones": ["Cero", "Positiva", "Negativa", "Uno"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La unidad de aceleración en SIMELA es:",
+    "opciones": ["m/s", "km/h", "m/s²", "km/min"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un ciclista recorre 18 km en 1 h. Su velocidad en m/s es:",
+    "opciones": ["18 m/s", "5 m/s", "10 m/s", "2 m/s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué científico es famoso por sus leyes del movimiento?",
+    "opciones": ["Galileo", "Newton", "Pascal", "Watt"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un objeto lanzado hacia arriba tarda 4s en volver a la mano. ¿Tiempo de subida?",
+    "opciones": ["4 s", "1 s", "2 s", "8 s"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La velocidad del sonido es aprox 340 m/s. En km/h es:",
+    "opciones": ["1224 km/h", "1000 km/h", "680 km/h", "3400 km/h"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el error absoluto?",
+    "opciones": ["Diferencia entre valor medido y valor real", "El error dividido la medida", "El porcentaje de error", "Una medida perfecta"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En tiro oblicuo, la altura máxima se da cuando:",
+    "opciones": ["Vx = 0", "Vy = 0", "V total = 0", "g = 0"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un cuerpo no cambia su posición respecto a un punto, está en:",
+    "opciones": ["Movimiento", "Reposo", "Aceleración", "Vuelo"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Convertir 5 Hm a metros:",
+    "opciones": ["50 m", "500 m", "5000 m", "5 m"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un auto a 108 km/h frena en 5 s. Su desaceleración es:",
+    "opciones": ["-6 m/s²", "-21.6 m/s²", "-5 m/s²", "-10 m/s²"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si un proyectil se lanza a 45°, las componentes Vx y Vy son:",
+    "opciones": ["Vx > Vy", "Vx < Vy", "Iguales", "Vx es el doble"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En caída libre, la masa influye en la velocidad final:",
+    "opciones": ["Sí, mucho", "No (despreciando el aire)", "Solo si es muy pesado", "Solo si es muy liviano"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La fórmula x = Xo + V*t corresponde a:",
+    "opciones": ["MRU", "MRUV", "Caída Libre", "Tiro Oblicuo (eje Y)"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un día tiene cuántos segundos:",
+    "opciones": ["3600", "24000", "86400", "60000"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La pendiente de la gráfica x-t en MRU representa:",
+    "opciones": ["La aceleración", "El tiempo", "La velocidad", "La distancia"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es un vector?",
+    "opciones": ["Un número solo", "Un segmento con dirección y sentido", "Una curva", "Un punto"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un cuerpo lanzado a 100 m/s a 30°, ¿cuál es su Vy inicial?",
+    "opciones": ["50 m/s", "86.6 m/s", "100 m/s", "0 m/s"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un cuerpo lanzado a 100 m/s a 30°, ¿cuál es su Vx?",
+    "opciones": ["50 m/s", "86.6 m/s", "100 m/s", "30 m/s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el MRUV, la gráfica velocidad-tiempo es:",
+    "opciones": ["Recta horizontal", "Recta inclinada", "Parábola", "Círculo"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si g=10m/s², ¿qué velocidad tiene un cuerpo al caer 2 segundos?",
+    "opciones": ["10 m/s", "20 m/s", "5 m/s", "2 m/s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La unidad de fuerza en el SI es:",
+    "opciones": ["Joule", "Watt", "Newton", "Pascal"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es el tiempo de vuelo en tiro oblicuo?",
+    "opciones": ["Tiempo en subir", "Tiempo en bajar", "Tiempo total en el aire", "Tiempo de impacto"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Convertir 120 Hm a km:",
+    "opciones": ["1.2 km", "12 km", "120 km", "1200 km"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un auto va a 20 m/s y frena a 2 m/s², ¿cuánto tarda en detenerse?",
+    "opciones": ["20 s", "10 s", "5 s", "2 s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el punto más alto de un tiro oblicuo, la velocidad total es:",
+    "opciones": ["Cero", "Igual a Vx", "Igual a Vy", "Máxima"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Convertir 2 horas a segundos:",
+    "opciones": ["120 s", "3600 s", "7200 s", "6000 s"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "El prefijo 'Kilo' significa:",
+    "opciones": ["10", "100", "1000", "1000000"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "El prefijo 'Mili' significa:",
+    "opciones": ["1/10", "1/100", "1/1000", "1/1000000"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un cuerpo que cae desde 20m tarda (g=10):",
+    "opciones": ["1 s", "2 s", "4 s", "0.5 s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La aceleración de la gravedad siempre apunta hacia:",
+    "opciones": ["Arriba", "Los lados", "El centro de la Tierra", "El sol"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En MRU, si duplicas el tiempo, la distancia:",
+    "opciones": ["Se mantiene", "Se duplica", "Se reduce a la mitad", "Se cuadruplica"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La física estudia la interacción entre:",
+    "opciones": ["Materia y Energía", "Seres vivos", "Pensamientos", "Solo el espacio"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Una milla son aprox 1.6 km. ¿60 millas son?",
+    "opciones": ["60 km", "100 km", "96 km", "120 km"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el MRUV, si la velocidad aumenta, la aceleración tiene:",
+    "opciones": ["Distinto sentido que v", "Mismo sentido que v", "Sentido perpendicular", "Sentido nulo"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La altura máxima en tiro vertical depende de:",
+    "opciones": ["La masa", "La velocidad inicial", "El color del objeto", "La hora"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si lanzas algo a 90° respecto al suelo, es un:",
+    "opciones": ["Tiro oblicuo", "Tiro vertical", "MRU", "Caída libre"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La componente horizontal del tiro oblicuo cambia con el tiempo:",
+    "opciones": ["Sí", "No", "Solo al final", "Solo si hay viento"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En una gráfica a-t de MRUV, la línea es:",
+    "opciones": ["Horizontal", "Inclinada", "Curva", "Vertical"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Convertir 1500 mm a metros:",
+    "opciones": ["15 m", "1.5 m", "150 m", "0.15 m"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un segundo jugador está a 30m del primero. Si la pelota cae a 25m, el jugador debe correr:",
+    "opciones": ["30 m", "25 m", "5 m", "10 m"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La unidad de tiempo en el SI es:",
+    "opciones": ["Minuto", "Hora", "Segundo", "Día"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué sucede con la velocidad en el punto más alto del tiro vertical?",
+    "opciones": ["Es máxima", "Es cero momentáneamente", "Es igual a g", "No cambia"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un objeto se lanza oblicuamente con 0°, es en realidad:",
+    "opciones": ["Tiro vertical", "Caída libre", "Movimiento horizontal", "No se mueve"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La cantidad de materia de un cuerpo es su:",
+    "opciones": ["Peso", "Masa", "Volumen", "Densidad"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para medir el tiempo de un suceso usamos un:",
+    "opciones": ["Velocímetro", "Cronómetro", "Barómetro", "Amperímetro"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un auto viaja a velocidad constante de 10 m/s, su aceleración es:",
+    "opciones": ["10 m/s²", "9.8 m/s²", "0 m/s²", "1 m/s²"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un proyectil se lanza a 100 m/s. Su alcance a los 10 s si Vx=86.6 m/s es:",
+    "opciones": ["866 m", "1000 m", "500 m", "86.6 m"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es una magnitud física según el material de estudio?",
+    "opciones": [
+      "Es todo aquello que puede ser medido.",
+      "Es el resultado de una comparación subjetiva.",
+      "Es únicamente el peso de los objetos.",
+      "Es una propiedad que no se puede expresar con números."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "VARIANTE 1: Utilizando el factor de conversión, ¿cuántos m/s son 144 km/h?",
+    "opciones": ["30 m/s", "40 m/s", "25 m/s", "44 m/s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "VARIANTE 2: Utilizando el factor de conversión, ¿cuántos km/h son 25 m/s?",
+    "opciones": ["72 km/h", "80 km/h", "90 km/h", "100 km/h"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Quién descubrió que en el vacío todos los cuerpos caen con la misma aceleración?",
+    "opciones": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Aristóteles"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el MRU, si un móvil recorre 120 km en 1.5 horas, ¿cuál es su velocidad constante?",
+    "opciones": ["60 km/h", "80 km/h", "100 km/h", "120 km/h"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "VARIANTE A: Dos móviles separados por 1000m van al encuentro con velocidades de 30 m/s y 20 m/s. ¿Cuánto tardan en encontrarse?",
+    "opciones": ["10 s", "20 s", "25 s", "50 s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "VARIANTE B: Dos móviles separados por 600m van al encuentro con velocidades de 15 m/s y 5 m/s. ¿Cuánto tardan en encontrarse?",
+    "opciones": ["30 s", "40 s", "60 s", "20 s"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el valor estándar de la aceleración de la gravedad (g) mencionado en la guía?",
+    "opciones": ["10 m/s²", "9.8 m/s²", "8.9 m/s²", "9.5 m/s²"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el MRUV, ¿qué magnitud permanece constante?",
+    "opciones": ["La velocidad", "La posición", "La aceleración", "El tiempo"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un móvil parte del reposo y acelera a 4 m/s². ¿Qué velocidad alcanza a los 10 segundos?",
+    "opciones": ["14 m/s", "20 m/s", "40 m/s", "400 m/s"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En un Tiro Vertical, cuando el objeto alcanza su altura máxima, su velocidad es:",
+    "opciones": ["Máxima", "Igual a la gravedad", "Cero", "Igual a la inicial"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "VARIANTE 1 (Caída Libre): Se deja caer una piedra desde 80m. Si g=10m/s², ¿cuánto tarda en llegar al suelo?",
+    "opciones": ["4 s", "8 s", "16 s", "2 s"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "VARIANTE 2 (Caída Libre): Se deja caer un objeto que tarda 6 segundos en llegar al suelo (g=10m/s²). ¿Con qué velocidad impacta?",
+    "opciones": ["30 m/s", "60 m/s", "10 m/s", "100 m/s"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el principio de Galileo, el Tiro Oblicuo es un movimiento compuesto por:",
+    "opciones": [
+      "Dos MRU independientes",
+      "Un MRU horizontal y un MRUV vertical",
+      "Dos MRUV concurrentes",
+      "Un movimiento circular y uno lineal"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si un proyectil se lanza con una velocidad Vo y un ángulo α, la componente vertical Voy es:",
+    "opciones": [
+      "Vo * cos(α)",
+      "Vo * tg(α)",
+      "Vo * sen(α)",
+      "Vo / g"
+    ],
+    "correcta": 2
+  }
+]

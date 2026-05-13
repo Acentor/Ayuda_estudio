@@ -71,3 +71,22 @@ async function cargarQuiz() {
 }
 
 cargarQuiz();
+
+async function mostrarCuriosidad() {
+    const pCuriosidad = document.getElementById('texto-curiosidad');
+    
+    try {
+        const respuesta = await fetch('../static/json/sabias_que.json');
+        const datos = await respuesta.json();
+        
+        const fraseAleatoria = datos[Math.floor(Math.random() * datos.length)].info;
+        
+        pCuriosidad.innerText = fraseAleatoria;
+        pCuriosidad.style.display = 'block';
+        
+    } catch (error) {
+        console.error("Error cargando curiosidades:", error);
+    }
+}
+
+document.getElementById('btn-curiosidad').addEventListener('click', mostrarCuriosidad);

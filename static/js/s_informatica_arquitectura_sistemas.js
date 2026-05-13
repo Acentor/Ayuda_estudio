@@ -76,7 +76,7 @@ async function mostrarCuriosidad() {
     const pCuriosidad = document.getElementById('texto-curiosidad');
     
     try {
-        const respuesta = await fetch('../static/json/j_sabias_fisica_aplicada.json');
+        const respuesta = await fetch('../static/json/j_sabias_informatica_arquitectura_sistemas.json');
         const datos = await respuesta.json();
         
         const fraseAleatoria = datos[Math.floor(Math.random() * datos.length)].info;

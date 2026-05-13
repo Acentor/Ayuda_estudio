@@ -1,0 +1,74 @@
+[
+  {
+    "tema": "Introducción y Unidades",
+    "info": "Antiguamente, la Física era conocida como 'Filosofía Natural', el estudio de las preguntas sobre la naturaleza que aún no tenían respuesta."
+  },
+  {
+    "tema": "Introducción y Unidades",
+    "info": "La ciencia progresó enormemente en el siglo XVI gracias al descubrimiento de que la naturaleza puede describirse mediante las matemáticas, eliminando ambigüedades."
+  },
+  {
+    "tema": "Unidades de Medida",
+    "info": "En Argentina utilizamos el SIMELA (Sistema Métrico Legal Argentino), el cual adopta las unidades del Sistema Internacional como el metro, el kilogramo y el segundo."
+  },
+  {
+    "tema": "Unidades de Medida",
+    "info": "El prefijo 'Kilo' siempre significa mil. Por eso, 1 kilómetro son 1.000 metros y 1 kilogramo son 1.000 gramos."
+  },
+  {
+    "tema": "Cinemática",
+    "info": "El movimiento es relativo. Para un pasajero en un tren, la estación es la que se mueve, mientras que para alguien en el andén, el tren es el que se desplaza."
+  },
+  {
+    "tema": "Cinemática",
+    "info": "Un cuerpo 'inerte' es aquel que no puede moverse por sí solo; necesita de una interacción o fuerza externa para cambiar su estado de reposo."
+  },
+  {
+    "tema": "MRU",
+    "info": "En el Movimiento Rectilíneo Uniforme (MRU), la velocidad es constante. Esto significa que el móvil recorre distancias iguales en tiempos iguales."
+  },
+  {
+    "tema": "MRU",
+    "info": "La luz viaja a casi 300.000 km/s en el vacío. ¡Es el ejemplo de MRU más rápido que conocemos en el Universo!"
+  },
+  {
+    "tema": "MRUV",
+    "info": "La aceleración aparece cuando la velocidad cambia. Si un auto frena, su aceleración tiene sentido contrario al movimiento (es una desaceleración)."
+  },
+  {
+    "tema": "MRUV",
+    "info": "En las gráficas de MRUV, la aceleración se representa como una línea recta horizontal porque su valor no cambia con el tiempo."
+  },
+  {
+    "tema": "Caída Libre",
+    "info": "Galileo Galilei descubrió que, sin aire, una pluma y una moneda caen exactamente con la misma aceleración (9,8 m/s²)."
+  },
+  {
+    "tema": "Caída Libre",
+    "info": "La aceleración de la gravedad (g) siempre apunta hacia el centro de la Tierra, sin importar si el objeto está subiendo o bajando."
+  },
+  {
+    "tema": "Tiro Vertical",
+    "info": "Cuando lanzas un objeto hacia arriba, en el punto de altura máxima su velocidad es exactamente cero por un instante antes de empezar a caer."
+  },
+  {
+    "tema": "Tiro Vertical",
+    "info": "Debido a la simetría del movimiento, un objeto tarda el mismo tiempo en subir que en volver a bajar al mismo punto de lanzamiento."
+  },
+  {
+    "tema": "Tiro Oblicuo",
+    "info": "El tiro oblicuo es un 'movimiento compuesto': horizontalmente se comporta como un MRU y verticalmente como un tiro vertical (MRUV)."
+  },
+  {
+    "tema": "Tiro Oblicuo",
+    "info": "Galileo estableció el principio de independencia de movimientos: lo que ocurre en el eje horizontal no afecta en absoluto a lo que ocurre en el vertical."
+  },
+  {
+    "tema": "Tiro Oblicuo",
+    "info": "La trayectoria de un proyectil (como una pelota pateada o una flecha) es una parábola, resultante de la combinación de dos movimientos independientes."
+  },
+  {
+    "tema": "Tiro Oblicuo",
+    "info": "El alcance máximo de un proyectil se logra disparándolo con un ángulo de 45 grados respecto al suelo."
+  }
+]

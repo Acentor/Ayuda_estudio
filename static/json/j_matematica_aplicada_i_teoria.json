@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cómo se define el conjunto de los números Reales ($R$)?",
+    "opciones": [
+      "La unión de racionales e irracionales",
+      "Solo los números enteros positivos",
+      "Números que no se pueden graficar"
+    ],
+    "correcta": 0,
+    "justificacion": "Los Reales se forman por la unión de racionales e irracionales (Q U I)."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué nombre recibe la propiedad: $a \\cdot (b + c) = a \\cdot b + a \\cdot c$?",
+    "opciones": [
+      "Asociativa",
+      "Distributiva",
+      "Conmutativa"
+    ],
+    "correcta": 1,
+    "justificacion": "La propiedad distributiva permite repartir el producto sobre una suma."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cuál es el resultado de cualquier número real $a \\neq 0$ elevado a la potencia $0$?",
+    "opciones": [
+      "0",
+      "$a$",
+      "1"
+    ],
+    "correcta": 2,
+    "justificacion": "Todo número real (excepto 0) elevado a la potencia 0 es igual a 1."
+  },
+  {
+    "id": 4,
+    "pregunta": "En la regla de los signos, el producto de dos números con signos distintos resulta en:",
+    "opciones": [
+      "Un número positivo",
+      "Un número negativo",
+      "Cero"
+    ],
+    "correcta": 1,
+    "justificacion": "Según la regla de los signos, (+) por (-) o viceversa siempre da (-)."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué indica el discriminante ($D = b^2 - 4ac$) si es menor a cero?",
+    "opciones": [
+      "Dos soluciones reales",
+      "Una solución real única",
+      "No tiene soluciones reales"
+    ],
+    "correcta": 2,
+    "justificacion": "Si el discriminante es negativo, la raíz cuadrada produce un número imaginario, no real."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Cuál es el desarrollo correcto de un binomio al cuadrado $(a+b)^2$?",
+    "opciones": [
+      "$a^2 + b^2$",
+      "$a^2 + 2ab + b^2$",
+      "$a^2 - 2ab + b^2$"
+    ],
+    "correcta": 1,
+    "justificacion": "El desarrollo es el cuadrado del primero, más el doble producto, más el cuadrado del segundo."
+  },
+  {
+    "id": 7,
+    "pregunta": "La expresión $(a+b)(a-b)$ es igual a:",
+    "opciones": [
+      "$a^2 + b^2$",
+      "$a^2 - b^2$",
+      "$(a-b)^2$"
+    ],
+    "correcta": 1,
+    "justificacion": "Es el producto notable conocido como Diferencia de Cuadrados."
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Cómo se llama el conjunto de números con decimales infinitos no periódicos?",
+    "opciones": [
+      "Racionales",
+      "Enteros",
+      "Irracionales"
+    ],
+    "correcta": 2,
+    "justificacion": "Los irracionales tienen infinitos decimales que no siguen un patrón o periodo."
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué propiedad permite escribir $x+5 = 5+x$?",
+    "opciones": [
+      "Conmutativa de la suma",
+      "Asociativa",
+      "Uniforme"
+    ],
+    "correcta": 0,
+    "justificacion": "La propiedad conmutativa indica que el orden de los sumandos no altera la suma."
+  },
+  {
+    "id": 10,
+    "pregunta": "Para racionalizar $\\frac{1}{\\sqrt{a}}$, se debe multiplicar numerador y denominador por:",
+    "opciones": [
+      "$a$",
+      "$\\sqrt{a}$",
+      "$\\frac{1}{a}$"
+    ],
+    "correcta": 1,
+    "justificacion": "Para eliminar la raíz cuadrada, se multiplica por la misma raíz (caso 1 de racionalización)."
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Cuál es el inverso multiplicativo de un número $a \\neq 0$?",
+    "opciones": [
+      "$-a$",
+      "$1$",
+      "$\\frac{1}{a}$"
+    ],
+    "correcta": 2,
+    "justificacion": "El producto de un número por su inverso multiplicativo (1/a) debe ser 1."
+  },
+  {
+    "id": 12,
+    "pregunta": "Un Trinomio Cuadrado Perfecto se factoriza como:",
+    "opciones": [
+      "Un binomio al cuadrado",
+      "Diferencia de cuadrados",
+      "Factor común"
+    ],
+    "correcta": 0,
+    "justificacion": "El TCP es el resultado de elevar un binomio al cuadrado."
+  },
+  {
+    "id": 13,
+    "pregunta": "La propiedad de potencia de otra potencia $(a^n)^m$ es igual a:",
+    "opciones": [
+      "$a^{n+m}$",
+      "$a^{n \\cdot m}$",
+      "$a^{n-m}$"
+    ],
+    "correcta": 1,
+    "justificacion": "En potencia de potencia, los exponentes se multiplican."
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué sucede con los signos dentro de un paréntesis si le precede un signo menos? (ej: $-(a-b)$)",
+    "opciones": [
+      "Se mantienen iguales",
+      "Todos cambian",
+      "Solo cambia el primero"
+    ],
+    "correcta": 1,
+    "justificacion": "Un signo negativo antes de un paréntesis invierte todos los signos internos."
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Cuál es el elemento neutro de la multiplicación?",
+    "opciones": [
+      "0",
+      "1",
+      "$-1$"
+    ],
+    "correcta": 1,
+    "justificacion": "Cualquier número multiplicado por 1 permanece igual."
+  },
+  {
+    "id": 16,
+    "pregunta": "Una ecuación de primer grado también se conoce como:",
+    "opciones": [
+      "Ecuación cuadrática",
+      "Ecuación lineal",
+      "Ecuación irracional"
+    ],
+    "correcta": 1,
+    "justificacion": "Son de primer grado porque el máximo exponente de la incógnita es 1."
+  },
+  {
+    "id": 17,
+    "pregunta": "¿A qué conjunto pertenecen los números naturales ($N$)?",
+    "opciones": [
+      "Enteros ($Z$)",
+      "Irracionales ($I$)",
+      "Ninguno"
+    ],
+    "correcta": 0,
+    "justificacion": "Los naturales están contenidos dentro de los enteros (N c Z)."
+  },
+  {
+    "id": 18,
+    "pregunta": "La raíz cuadrada de un número negativo en el conjunto de los Reales:",
+    "opciones": [
+      "Es un número negativo",
+      "No está definida",
+      "Es cero"
+    ],
+    "correcta": 1,
+    "justificacion": "No existe un número real que multiplicado por sí mismo de un resultado negativo."
+  },
+  {
+    "id": 19,
+    "pregunta": "El producto de potencias de igual base $a^n \\cdot a^m$ es:",
+    "opciones": [
+      "$a^{n \\cdot m}$",
+      "$a^{n+m}$",
+      "$a^n$"
+    ],
+    "correcta": 1,
+    "justificacion": "Al multiplicar potencias de igual base, los exponentes se suman."
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Cómo se llama el factor común en $6xy + 10xz$?",
+    "opciones": [
+      "$2x$",
+      "$x$",
+      "$2$"
+    ],
+    "correcta": 0,
+    "justificacion": "El máximo común divisor entre 6 y 10 es 2, y la variable común es x."
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Qué propiedad se aplica en la expresión $(x \\cdot y)^n = x^n \\cdot y^n$?",
+    "opciones": [
+      "Potencia de un producto",
+      "Producto de potencias",
+      "Potencia de otra potencia"
+    ],
+    "correcta": 0,
+    "justificacion": "La potencia de un producto distribuye el exponente a cada factor."
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Cómo se expresa un exponente negativo $a^{-n}$ en forma de fracción?",
+    "opciones": [
+      "$-a^n$",
+      "$\\frac{1}{a^n}$",
+      "$\\frac{n}{a}$"
+    ],
+    "correcta": 1,
+    "justificacion": "Un exponente negativo indica el recíproco de la base con exponente positivo."
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cuál es el resultado de la operación $-( -a )$?",
+    "opciones": [
+      "$-a$",
+      "$0$",
+      "$a$"
+    ],
+    "correcta": 2,
+    "justificacion": "El opuesto del opuesto de un número es el mismo número."
+  },
+  {
+    "id": 24,
+    "pregunta": "En una fracción, si el numerador es $0$ y el denominador es distinto de $0$, el resultado es:",
+    "opciones": [
+      "Indefinido",
+      "1",
+      "0"
+    ],
+    "correcta": 2,
+    "justificacion": "Cero dividido por cualquier número distinto de cero siempre es cero."
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Cuál es la definición de valor absoluto de un número real $x$?",
+    "opciones": [
+      "Su distancia al origen (0) en la recta numérica",
+      "El doble del número",
+      "El número con signo cambiado"
+    ],
+    "correcta": 0,
+    "justificacion": "El valor absoluto representa la magnitud numérica sin tener en cuenta el signo."
+  },
+  {
+    "id": 26,
+    "pregunta": "¿A qué es igual la raíz de un producto $\\sqrt[n]{a \\cdot b}$?",
+    "opciones": [
+      "$\\sqrt[n]{a} + \\sqrt[n]{b}$",
+      "$\\sqrt[n]{a} \\cdot \\sqrt[n]{b}$",
+      "$\\sqrt[n]{a^b}$"
+    ],
+    "correcta": 1,
+    "justificacion": "La radicación es distributiva respecto a la multiplicación."
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Cuál es el nombre del conjunto numérico que incluye a los decimales periódicos mixtos?",
+    "opciones": [
+      "Irracionales",
+      "Racionales",
+      "Naturales"
+    ],
+    "correcta": 1,
+    "justificacion": "Los decimales periódicos siempre pueden expresarse como fracción (racionales)."
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Qué representa el símbolo $\\pi$ en el conjunto de los números Reales?",
+    "opciones": [
+      "Un número racional exacto",
+      "Un número entero",
+      "Un número irracional"
+    ],
+    "correcta": 2,
+    "justificacion": "Pi es el ejemplo más famoso de número irracional con decimales infinitos no periódicos."
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Cuál es el resultado de la suma de dos números opuestos $a + (-a)$?",
+    "opciones": [
+      "0",
+      "1",
+      "$2a$"
+    ],
+    "correcta": 0,
+    "justificacion": "Sumar un número con su opuesto siempre resulta en el elemento neutro (0)."
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué método se utiliza para extraer factores de un radical?",
+    "opciones": [
+      "Racionalización",
+      "Descomposición en factores primos",
+      "Propiedad distributiva de la suma"
+    ],
+    "correcta": 1,
+    "justificacion": "Se descompone el radicando para extraer factores cuyo exponente iguale al índice."
+  },
+  {
+    "id": 31,
+    "pregunta": "La expresión $(a-b)^2$ desarrollada es:",
+    "opciones": [
+      "$a^2 - b^2$",
+      "$a^2 - 2ab + b^2$",
+      "$a^2 + 2ab + b^2$"
+    ],
+    "correcta": 1,
+    "justificacion": "Es el desarrollo del binomio de una resta al cuadrado."
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Cómo se llama el proceso de eliminar radicales del denominador de una fracción?",
+    "opciones": [
+      "Factorización",
+      "Simplificación",
+      "Racionalización"
+    ],
+    "correcta": 2,
+    "justificacion": "La racionalización busca eliminar raíces del denominador para facilitar cálculos."
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Cuál es el grado de una ecuación cuadrática?",
+    "opciones": [
+      "Grado 1",
+      "Grado 2",
+      "Grado 0"
+    ],
+    "correcta": 1,
+    "justificacion": "El grado lo define el mayor exponente, que en las cuadráticas es 2."
+  },
+  {
+    "id": 34,
+    "pregunta": "En la jerarquía de operaciones, ¿qué se debe resolver antes que las sumas?",
+    "opciones": [
+      "Solo multiplicaciones",
+      "Solo paréntesis",
+      "Paréntesis, potencias y multiplicaciones"
+    ],
+    "correcta": 2,
+    "justificacion": "Primero se resuelven agrupaciones, luego potencias/raíces y multiplicaciones/divisiones."
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué propiedad dice que el orden de los factores no altera el producto?",
+    "opciones": [
+      "Propiedad asociativa",
+      "Propiedad conmutativa",
+      "Propiedad distributiva"
+    ],
+    "correcta": 1,
+    "justificacion": "El orden de los factores no altera el producto (axb = bxa)."
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Cómo se llama el punto (0) en la recta numérica real?",
+    "opciones": [
+      "Unidad",
+      "Origen",
+      "Extremo"
+    ],
+    "correcta": 1,
+    "justificacion": "El cero es el punto de referencia central en la recta real."
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Cuál es la condición para que un número sea racional?",
+    "opciones": [
+      "Debe ser positivo",
+      "Se puede expresar como cociente de dos enteros",
+      "Debe tener raíz cuadrada exacta"
+    ],
+    "correcta": 1,
+    "justificacion": "Si puede escribirse como a/b (con a,b enteros y b != 0), es racional."
+  },
+  {
+    "id": 38,
+    "pregunta": "La división por cero ($a/0$) en matemáticas está:",
+    "opciones": [
+      "Definida como cero",
+      "Definida como infinito",
+      "No definida"
+    ],
+    "correcta": 2,
+    "justificacion": "La división por cero es una operación matemáticamente indefinida."
+  },
+  {
+    "id": 39,
+    "pregunta": "¿A qué es igual un exponente fraccionario $a^{m/n}$?",
+    "opciones": [
+      "$a \\cdot \\frac{m}{n}$",
+      "$\\sqrt[n]{a^m}$",
+      "$\\frac{1}{a^{m/n}}$"
+    ],
+    "correcta": 1,
+    "justificacion": "El denominador de la fracción pasa a ser el índice de la raíz."
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Qué indica el término independiente 'c' en la ecuación $ax^2 + bx + c = 0$?",
+    "opciones": [
+      "El coeficiente principal",
+      "La ordenada al origen",
+      "El discriminante"
+    ],
+    "correcta": 1,
+    "justificacion": "Es el término que no depende de la variable x."
+  },
+  {
+    "id": 41,
+    "pregunta": "¿Qué condición debe cumplir un Trinomio para ser Cuadrado Perfecto?",
+    "opciones": [
+      "Tener dos términos que sean cuadrados perfectos y el tercero sea el doble producto de sus raíces",
+      "Tener todos sus términos positivos",
+      "Que el primer término sea mayor al segundo"
+    ],
+    "correcta": 0,
+    "justificacion": "Es la regla técnica para identificar un Trinomio Cuadrado Perfecto."
+  },
+  {
+    "id": 42,
+    "pregunta": "La propiedad distributiva de la multiplicación respecto a la suma se expresa como:",
+    "opciones": [
+      "$a \\cdot b + c$",
+      "$a \\cdot (b + c) = a \\cdot b + a \\cdot c$",
+      "$a + (b \\cdot c) = (a + b) \\cdot c$"
+    ],
+    "correcta": 1,
+    "justificacion": "Expresión formal de la distribución del producto sobre la suma."
+  },
+  {
+    "id": 43,
+    "pregunta": "¿Cuál es el resultado de la potencia $(-1)^n$ si $n$ es un número PAR?",
+    "opciones": [
+      "$-1$",
+      "$0$",
+      "$1$"
+    ],
+    "correcta": 2,
+    "justificacion": "Cualquier base (positiva o negativa) elevada a exponente par da resultado positivo."
+  },
+  {
+    "id": 44,
+    "pregunta": "¿A qué conjunto pertenecen los números con decimales periódicos mixtos?",
+    "opciones": [
+      "Racionales ($Q$)",
+      "Irracionales ($I$)",
+      "Enteros ($Z$)"
+    ],
+    "correcta": 0,
+    "justificacion": "Los periódicos (puros o mixtos) son siempre racionales."
+  },
+  {
+    "id": 45,
+    "pregunta": "¿Cómo se factoriza una suma de cubos $a^3 + b^3$?",
+    "opciones": [
+      "$(a+b)(a^2 - ab + b^2)$",
+      "$(a+b)^3$",
+      "$(a-b)(a^2 + ab + b^2)$"
+    ],
+    "correcta": 0,
+    "justificacion": "Fórmula específica: (a+b)(a²-ab+b²)."
+  },
+  {
+    "id": 46,
+    "pregunta": "¿Qué establece la Propiedad de Tricotomía para dos números reales $a$ y $b$?",
+    "opciones": [
+      "Que $a$ siempre es mayor que $b$",
+      "Que solo una de estas se cumple: $a < b$, $a = b$ o $a > b$",
+      "Que la suma es siempre positiva"
+    ],
+    "correcta": 1,
+    "justificacion": "Establece que entre dos números solo puede haber una relación de orden posible."
+  },
+  {
+    "id": 47,
+    "pregunta": "¿Cuál es el recíproco de la fracción $\\frac{a}{b}$?",
+    "opciones": [
+      "$\\frac{b}{a}$",
+      "$-\\frac{a}{b}$",
+      "$1$"
+    ],
+    "correcta": 0,
+    "justificacion": "El recíproco o inverso multiplicativo invierte el numerador y el denominador."
+  },
+  {
+    "id": 48,
+    "pregunta": "¿Qué indica el 'Grado' de un polinomio?",
+    "opciones": [
+      "La cantidad de términos",
+      "El mayor exponente de su variable",
+      "El valor del término independiente"
+    ],
+    "correcta": 1,
+    "justificacion": "Se determina observando el exponente más alto de la variable."
+  },
+  {
+    "id": 49,
+    "pregunta": "En la expresión $\\sqrt[n]{a}$, ¿cómo se llama al número $n$?",
+    "opciones": [
+      "Radicando",
+      "Base",
+      "Índice"
+    ],
+    "correcta": 2,
+    "justificacion": "El índice indica cuántas veces se debe multiplicar la raíz por sí misma."
+  },
+  {
+    "id": 50,
+    "pregunta": "La propiedad $(a \\cdot b \\cdot c)^n = a^n \\cdot b^n \\cdot c^n$ demuestra que:",
+    "opciones": [
+      "La potencia es distributiva respecto al producto",
+      "La potencia es conmutativa",
+      "La base no importa"
+    ],
+    "correcta": 0,
+    "justificacion": "La potencia afecta a todos los elementos dentro del paréntesis si están multiplicando."
+  },
+  {
+    "id": 51,
+    "pregunta": "¿Cuál es el primer paso recomendado para factorizar cualquier polinomio?",
+    "opciones": [
+      "Aplicar la fórmula cuadrática",
+      "Buscar un Factor Común",
+      "Contar los términos"
+    ],
+    "correcta": 1,
+    "justificacion": "Siempre se debe simplificar buscando el factor común antes de otros métodos."
+  },
+  {
+    "id": 52,
+    "pregunta": "¿Qué es un 'monomio'?",
+    "opciones": [
+      "Una expresión algebraica de un solo término",
+      "Una ecuación sin solución",
+      "Un número irracional"
+    ],
+    "correcta": 0,
+    "justificacion": "Un monomio es la expresión mínima de un solo término algebraico."
+  },
+  {
+    "id": 53,
+    "pregunta": "Si un producto de dos números es cero ($a \\cdot b = 0$), ¿qué se puede afirmar?",
+    "opciones": [
+      "Ambos son cero",
+      "Al menos uno de los dos es cero",
+      "Ninguno es cero"
+    ],
+    "correcta": 1,
+    "justificacion": "Propiedad del producto nulo: para que un producto sea 0, un factor debe serlo."
+  },
+  {
+    "id": 54,
+    "pregunta": "¿Cómo se llama el resultado de una resta o sustracción?",
+    "opciones": [
+      "Suma",
+      "Producto",
+      "Diferencia"
+    ],
+    "correcta": 2,
+    "justificacion": "Diferencia es el término técnico para el resultado de la resta."
+  },
+  {
+    "id": 55,
+    "pregunta": "¿Qué conjunto numérico se representa con la letra $N$?",
+    "opciones": [
+      "Números Naturales",
+      "Números Negativos",
+      "Números Neutros"
+    ],
+    "correcta": 0,
+    "justificacion": "N representa los números para contar: 1, 2, 3..."
+  },
+  {
+    "id": 56,
+    "pregunta": "La propiedad de densidad en los Racionales significa que:",
+    "opciones": [
+      "Son números muy grandes",
+      "Entre dos racionales siempre hay otro racional",
+      "No tienen decimales"
+    ],
+    "correcta": 1,
+    "justificacion": "Propiedad que indica que el conjunto Q no tiene 'huecos' en su propia escala."
+  },
+  {
+    "id": 57,
+    "pregunta": "¿Cuál es el valor de $|-15|$?",
+    "opciones": [
+      "$-15$",
+      "$0$",
+      "$15$"
+    ],
+    "correcta": 2,
+    "justificacion": "El valor absoluto de -15 es su distancia al 0, que es 15 positivo."
+  },
+  {
+    "id": 58,
+    "pregunta": "¿Qué resulta de elevar una base negativa a un exponente IMPAR?",
+    "opciones": [
+      "Un resultado positivo",
+      "Un resultado negativo",
+      "Cero"
+    ],
+    "correcta": 1,
+    "justificacion": "Una base negativa elevada a exponente impar conserva el signo negativo."
+  },
+  {
+    "id": 59,
+    "pregunta": "En la expresión $5x^3$, ¿cómo se llama al número $5$?",
+    "opciones": [
+      "Exponente",
+      "Variable",
+      "Coeficiente"
+    ],
+    "correcta": 2,
+    "justificacion": "El coeficiente es el número que multiplica a la variable."
+  },
+  {
+    "id": 60,
+    "pregunta": "¿Cuál es la raíz cuadrada de $144$?",
+    "opciones": [
+      "12",
+      "14",
+      "16"
+    ],
+    "correcta": 0,
+    "justificacion": "Porque 12 x 12 = 144."
+  },
+  {
+    "id": 61,
+    "pregunta": "¿Cómo se llama el proceso de transformar $\\frac{1}{\\sqrt[3]{a}}$ para eliminar la raíz del denominador?",
+    "opciones": [
+      "Racionalización",
+      "Simplificación",
+      "Potenciación"
+    ],
+    "correcta": 0,
+    "justificacion": "Procedimiento para transformar expresiones con raíces en el denominador."
+  },
+  {
+    "id": 62,
+    "pregunta": "La suma de fracciones con igual denominador $\\frac{a}{c} + \\frac{b}{c}$ es igual a:",
+    "opciones": [
+      "$\\frac{a+b}{2c}$",
+      "$\\frac{a+b}{c}$",
+      "$\\frac{a \\cdot b}{c}$"
+    ],
+    "correcta": 1,
+    "justificacion": "Se mantiene el denominador y se operan los numeradores directamente."
+  },
+  {
+    "id": 63,
+    "pregunta": "¿Cuál es el resultado de la operación $5^2 - 3^2$?",
+    "opciones": [
+      "4",
+      "16",
+      "2"
+    ],
+    "correcta": 1,
+    "justificacion": "25 - 9 = 16."
+  },
+  {
+    "id": 64,
+    "pregunta": "En lenguaje algebraico, 'el doble de un número aumentado en 3' se escribe:",
+    "opciones": [
+      "$x^2 + 3$",
+      "$2x + 3$",
+      "$2(x+3)$"
+    ],
+    "correcta": 1,
+    "justificacion": "El 'doble' es 2x, 'aumentado' es sumar (+3)."
+  },
+  {
+    "id": 65,
+    "pregunta": "¿Qué es un 'Polinomio'?",
+    "opciones": [
+      "Una suma de monomios no semejantes",
+      "Una ecuación con una sola solución",
+      "Un número irracional muy largo"
+    ],
+    "correcta": 0,
+    "justificacion": "Definición formal de una suma finita de monomios."
+  },
+  {
+    "id": 66,
+    "pregunta": "¿Cuál es la raíz cúbica de $-27$ en el conjunto de los Reales?",
+    "opciones": [
+      "No existe",
+      "3",
+      "$-3$"
+    ],
+    "correcta": 2,
+    "justificacion": "Las raíces de índice impar de números negativos sí existen en los Reales."
+  },
+  {
+    "id": 67,
+    "pregunta": "¿Cómo se multiplican dos fracciones $\\frac{a}{b} \\cdot \\frac{c}{d}$?",
+    "opciones": [
+      "Cruzado: $a \\cdot d$ y $b \\cdot c$",
+      "Lineal: $a \\cdot c$ y $b \\cdot d$",
+      "Solo se multiplican los numeradores"
+    ],
+    "correcta": 1,
+    "justificacion": "Se multiplica numerador con numerador y denominador con denominador."
+  },
+  {
+    "id": 68,
+    "pregunta": "La expresión $x^2 - 10x + 25$ es un Trinomio Cuadrado Perfecto de:",
+    "opciones": [
+      "$(x+5)^2$",
+      "$(x-5)^2$",
+      "$(x-5)(x+5)$"
+    ],
+    "correcta": 1,
+    "justificacion": "x² es cuadrado de x, 25 es cuadrado de 5, y 10x es 2*x*5."
+  },
+  {
+    "id": 69,
+    "pregunta": "¿Qué es el 'mínimo común múltiplo' (mcm) en la suma de fracciones?",
+    "opciones": [
+      "El menor número divisible por todos los denominadores",
+      "La suma de todos los denominadores",
+      "El mayor de los numeradores"
+    ],
+    "correcta": 0,
+    "justificacion": "Es el denominador común más pequeño posible para sumar fracciones."
+  },
+  {
+    "id": 70,
+    "pregunta": "En la expresión $\\sqrt{x+y}$, ¿se puede aplicar la propiedad distributiva de la raíz?",
+    "opciones": [
+      "Sí, queda $\\sqrt{x} + \\sqrt{y}$",
+      "No, la raíz no es distributiva respecto a la suma",
+      "Solo si $x$ e $y$ son iguales"
+    ],
+    "correcta": 1,
+    "justificacion": "La radicación NO es distributiva respecto a la suma o resta."
+  },
+  {
+    "id": 71,
+    "pregunta": "¿Cuál es el valor de $x$ en la ecuación lineal $2x - 4 = 10$?",
+    "opciones": [
+      "3",
+      "7",
+      "14"
+    ],
+    "correcta": 1,
+    "justificacion": "2x = 10 + 4 -> 2x = 14 -> x = 7."
+  },
+  {
+    "id": 72,
+    "pregunta": "¿Qué nombre recibe el punto donde se intersectan los ejes en un plano cartesiano?",
+    "opciones": [
+      "Vértice",
+      "Extremo",
+      "Origen"
+    ],
+    "correcta": 2,
+    "justificacion": "Es el punto (0,0) donde se cruzan las coordenadas."
+  },
+  {
+    "id": 73,
+    "pregunta": "La propiedad de potencia de un cociente $(\\frac{a}{b})^n$ es igual a:",
+    "opciones": [
+      "$\\frac{a^n}{b^n}$",
+      "$a^n - b^n$",
+      "$\\frac{a \\cdot n}{b \\cdot n}$"
+    ],
+    "correcta": 0,
+    "justificacion": "La potencia se aplica tanto arriba como abajo en la fracción."
+  },
+  {
+    "id": 74,
+    "pregunta": "¿Cómo se factoriza la expresión $ax + ay + bx + by$?",
+    "opciones": [
+      "Factor común simple",
+      "Diferencia de cuadrados",
+      "Factor común por grupos"
+    ],
+    "correcta": 2,
+    "justificacion": "Se agrupan los términos con 'a' y los términos con 'b' por separado."
+  },
+  {
+    "id": 75,
+    "pregunta": "¿Cuál es el resultado de $0 \\cdot a$ (siendo $a$ cualquier número real)?",
+    "opciones": [
+      "$a$",
+      "1",
+      "0"
+    ],
+    "correcta": 2,
+    "justificacion": "El cero es el elemento absorbente de la multiplicación."
+  },
+  {
+    "id": 76,
+    "pregunta": "¿Qué tipo de número es $\\sqrt{2}$?",
+    "opciones": [
+      "Racional",
+      "Irracional",
+      "Entero"
+    ],
+    "correcta": 1,
+    "justificacion": "No puede expresarse como fracción; su decimal es infinito no periódico."
+  },
+  {
+    "id": 77,
+    "pregunta": "Si multiplicas un número por su inverso aditivo (opuesto), el resultado es:",
+    "opciones": [
+      "1",
+      "$-a^2$",
+      "0"
+    ],
+    "correcta": 1,
+    "justificacion": "a * (-a) = -a² (regla de signos)."
+  },
+  {
+    "id": 78,
+    "pregunta": "En una potencia $a^n$, si la base $a$ es negativa y el exponente $n$ es PAR, el resultado es:",
+    "opciones": [
+      "Positivo",
+      "Negativo",
+      "Cero"
+    ],
+    "correcta": 0,
+    "justificacion": "El signo negativo desaparece al multiplicarse un número par de veces."
+  },
+  {
+    "id": 79,
+    "pregunta": "¿Cuál es la propiedad que permite cambiar el orden de los sumandos?",
+    "opciones": [
+      "Conmutativa",
+      "Asociativa",
+      "Distributiva"
+    ],
+    "correcta": 0,
+    "justificacion": "Propiedad fundamental: a + b = b + a."
+  },
+  {
+    "id": 80,
+    "pregunta": "La expresión 'un número al cuadrado menos su mitad' se escribe:",
+    "opciones": [
+      "$2x - \\frac{x}{2}$",
+      "$x^2 - \\frac{1}{2}$",
+      "$x^2 - \\frac{x}{2}$"
+    ],
+    "correcta": 2,
+    "justificacion": "El cuadrado es x², la mitad es x/2."
+  },
+  {
+    "id": 81,
+    "pregunta": "¿Qué nombre recibe el conjunto solución de una ecuación que no tiene valores que la satisfagan?",
+    "opciones": [
+      "Conjunto Unitario",
+      "Conjunto Vacío ($\\varnothing$)",
+      "Conjunto Infinito"
+    ],
+    "correcta": 1,
+    "justificacion": "El símbolo de conjunto vacío indica que no hay valores reales posibles."
+  },
+  {
+    "id": 82,
+    "pregunta": "En una ecuación cuadrática, si el discriminante es igual a cero ($D = 0$), significa que:",
+    "opciones": [
+      "Hay dos soluciones reales distintas",
+      "No hay solución",
+      "Hay una única solución real (raíz doble)"
+    ],
+    "correcta": 2,
+    "justificacion": "Si D=0, las dos raíces de la fórmula de Bhaskara coinciden en un solo valor."
+  },
+  {
+    "id": 83,
+    "pregunta": "¿Cuál es la unidad imaginaria $i$ en el conjunto de los números complejos?",
+    "opciones": [
+      "$i = \\sqrt{1}$",
+      "$i = \\sqrt{-1}$",
+      "$i = -1$"
+    ],
+    "correcta": 1,
+    "justificacion": "Definición base de los números imaginarios."
+  },
+  {
+    "id": 84,
+    "pregunta": "¿Cómo se representa un intervalo cerrado entre $a$ y $b$?",
+    "opciones": [
+      "$(a, b)$",
+      "$[a, b]$",
+      "$\\{a, b\\}$"
+    ],
+    "correcta": 1,
+    "justificacion": "Los corchetes [] indican que los extremos están incluidos."
+  },
+  {
+    "id": 85,
+    "pregunta": "En el sistema de coordenadas, ¿cuál es el eje de las ordenadas?",
+    "opciones": [
+      "El eje horizontal ($X$)",
+      "El eje vertical ($Y$)",
+      "El eje de profundidad ($Z$)"
+    ],
+    "correcta": 1,
+    "justificacion": "Eje X (abscisas), Eje Y (ordenadas)."
+  },
+  {
+    "id": 86,
+    "pregunta": "¿Cuál es el resultado de $i^2$?",
+    "opciones": [
+      "1",
+      "$-1$",
+      "$i$"
+    ],
+    "correcta": 1,
+    "justificacion": "Por definición: (sqrt(-1))² = -1."
+  },
+  {
+    "id": 87,
+    "pregunta": "¿Qué es una inecuación lineal?",
+    "opciones": [
+      "Una igualdad entre dos expresiones",
+      "Una desigualdad que incluye símbolos como $<$, $>$, $\\le$ o $\\ge$",
+      "Una suma de cuadrados"
+    ],
+    "correcta": 1,
+    "justificacion": "Diferencia principal entre ecuación (igualdad) e inecuación (desigualdad)."
+  },
+  {
+    "id": 88,
+    "pregunta": "Al multiplicar o dividir ambos miembros de una inecuación por un número NEGATIVO:",
+    "opciones": [
+      "El sentido de la desigualdad cambia",
+      "El sentido de la desigualdad se mantiene",
+      "La inecuación se convierte en ecuación"
+    ],
+    "correcta": 0,
+    "justificacion": "Regla crítica: multiplicar por negativo 'da vuelta' el símbolo (ej: < pasa a >)."
+  },
+  {
+    "id": 89,
+    "pregunta": "El método de 'Sustitución' en sistemas de ecuaciones consiste en:",
+    "opciones": [
+      "Sumar las dos ecuaciones",
+      "Despejar una incógnita en una ecuación y reemplazarla en la otra",
+      "Graficar ambas rectas"
+    ],
+    "correcta": 1,
+    "justificacion": "Técnica estándar para resolver sistemas de 2x2."
+  },
+  {
+    "id": 90,
+    "pregunta": "¿Qué significa que un sistema de ecuaciones sea 'Incompatible'?",
+    "opciones": [
+      "Que tiene infinitas soluciones",
+      "Que tiene una única solución",
+      "Que no tiene solución"
+    ],
+    "correcta": 2,
+    "justificacion": "Ocurre cuando las condiciones se contradicen (ej: 0 = 5)."
+  },
+  {
+    "id": 91,
+    "pregunta": "¿Cómo se llama la forma $a + bi$ de un número complejo?",
+    "opciones": [
+      "Forma polar",
+      "Forma binómica",
+      "Forma trigonométrica"
+    ],
+    "correcta": 1,
+    "justificacion": "a es la parte real y bi la parte imaginaria."
+  },
+  {
+    "id": 92,
+    "pregunta": "En el intervalo $(2, 5]$, ¿el número 2 está incluido?",
+    "opciones": [
+      "No, porque tiene paréntesis (abierto)",
+      "Sí, porque es un número entero",
+      "Solo si el ejercicio lo indica"
+    ],
+    "correcta": 0,
+    "justificacion": "El paréntesis indica que el límite no se toca (abierto)."
+  },
+  {
+    "id": 93,
+    "pregunta": "¿Cuál es el conjugado del número complejo $z = 3 + 4i$?",
+    "opciones": [
+      "$-3 - 4i$",
+      "$3 - 4i$",
+      "$4 + 3i$"
+    ],
+    "correcta": 1,
+    "justificacion": "El conjugado solo cambia el signo de la parte imaginaria."
+  },
+  {
+    "id": 94,
+    "pregunta": "¿Qué valor de $x$ satisface $|x| = 5$?",
+    "opciones": [
+      "Solo 5",
+      "Solo $-5$",
+      "5 y $-5$"
+    ],
+    "correcta": 2,
+    "justificacion": "Tanto 5 como -5 están a 5 unidades de distancia del cero."
+  },
+  {
+    "id": 95,
+    "pregunta": "Un sistema de dos ecuaciones lineales cuyas gráficas son rectas paralelas es:",
+    "opciones": [
+      "Compatible determinado",
+      "Compatible indeterminado",
+      "Incompatible"
+    ],
+    "correcta": 2,
+    "justificacion": "Si nunca se cruzan, no hay puntos comunes ni solución."
+  },
+  {
+    "id": 96,
+    "pregunta": "¿A qué es igual $(a+b)^3$ (Cubo de un binomio)?",
+    "opciones": [
+      "$a^3 + b^3$",
+      "$a^3 + 3a^2b + 3ab^2 + b^3$",
+      "$a^3 + b^3 + 3ab$"
+    ],
+    "correcta": 1,
+    "justificacion": "Desarrollo estándar del binomio al cubo."
+  },
+  {
+    "id": 97,
+    "pregunta": "¿Qué representa la intersección de dos conjuntos $A \\cap B$?",
+    "opciones": [
+      "Los elementos que pertenecen a ambos conjuntos a la vez",
+      "Todos los elementos de $A$ y de $B$ combinados",
+      "Los elementos que solo están en $A$"
+    ],
+    "correcta": 0,
+    "justificacion": "La intersección busca los elementos comunes."
+  },
+  {
+    "id": 98,
+    "pregunta": "¿Cuál es el dominio de una expresión racional como $\\frac{1}{x-3}$?",
+    "opciones": [
+      "Todos los reales",
+      "Todos los reales excepto $x = 3$",
+      "Solo los números positivos"
+    ],
+    "correcta": 1,
+    "justificacion": "El denominador no puede ser 0, por lo tanto x no puede ser 3."
+  },
+  {
+    "id": 99,
+    "pregunta": "¿Cómo se llama el coeficiente 'a' en la función $f(x) = ax^2 + bx + c$?",
+    "opciones": [
+      "Coeficiente lineal",
+      "Coeficiente principal o cuadrático",
+      "Término independiente"
+    ],
+    "correcta": 1,
+    "justificacion": "Es el valor que determina la apertura de la parábola."
+  },
+  {
+    "id": 100,
+    "pregunta": "¿Qué propiedad se usa para resolver $3(x - 2) = 12$?",
+    "opciones": [
+      "Propiedad Distributiva",
+      "Propiedad Cancelativa",
+      "Propiedad de la Potencia"
+    ],
+    "correcta": 0,
+    "justificacion": "Permite eliminar el paréntesis multiplicando el 3 por x y por -2."
+  },
+  {
+    "id": 101,
+    "pregunta": "¿Qué símbolo se utiliza para representar que un intervalo se extiende indefinidamente hacia la derecha?",
+    "opciones": [
+      "$-\\infty$",
+      "$\\Delta$",
+      "$+\\infty$"
+    ],
+    "correcta": 2,
+    "justificacion": "Representa un límite superior que no existe."
+  },
+  {
+    "id": 102,
+    "pregunta": "En la expresión $\\sqrt[n]{a} = x$, el número $a$ recibe el nombre de:",
+    "opciones": [
+      "Índice",
+      "Radicando",
+      "Exponente"
+    ],
+    "correcta": 1,
+    "justificacion": "Es el número al cual se le aplica la operación de raíz."
+  },
+  {
+    "id": 103,
+    "pregunta": "¿Cuál es el resultado de $(-a)^n$ si $n$ es un número IMPAR?",
+    "opciones": [
+      "Un número positivo",
+      "Un número negativo",
+      "Cero"
+    ],
+    "correcta": 1,
+    "justificacion": "El signo negativo persiste al multiplicarse una cantidad impar de veces."
+  },
+  {
+    "id": 104,
+    "pregunta": "La propiedad asociativa de la suma se expresa como:",
+    "opciones": [
+      "$a + b = b + a$",
+      "$(a + b) + c = a + (b + c)$",
+      "$a(b + c) = ab + ac$"
+    ],
+    "correcta": 1,
+    "justificacion": "Permite agrupar sumandos de diferentes formas sin cambiar el total."
+  },
+  {
+    "id": 105,
+    "pregunta": "¿A qué es igual la raíz de una raíz $\\sqrt[n]{\\sqrt[m]{a}}$?",
+    "opciones": [
+      "$\\sqrt[n+m]{a}$",
+      "$\\sqrt[n \\cdot m]{a}$",
+      "$\\sqrt[n/m]{a}$"
+    ],
+    "correcta": 1,
+    "justificacion": "Los índices se multiplican para simplificar en una sola raíz."
+  },
+  {
+    "id": 106,
+    "pregunta": "¿Cómo se llama el conjunto que contiene tanto a los números racionales como a los irracionales?",
+    "opciones": [
+      "Complejos",
+      "Reales",
+      "Enteros"
+    ],
+    "correcta": 1,
+    "justificacion": "Es la definición por excelencia del conjunto R."
+  },
+  {
+    "id": 107,
+    "pregunta": "Un sistema de ecuaciones con infinitas soluciones se denomina:",
+    "opciones": [
+      "Compatible Determinado",
+      "Compatible Indeterminado",
+      "Incompatible"
+    ],
+    "correcta": 1,
+    "justificacion": "Sucede cuando ambas ecuaciones representan la misma recta."
+  },
+  {
+    "id": 108,
+    "pregunta": "¿Cuál es la forma de una inecuación lineal con una incógnita?",
+    "opciones": [
+      "$ax + b > 0$",
+      "$ax^2 + bx + c = 0$",
+      "$x + y = z$"
+    ],
+    "correcta": 0,
+    "justificacion": "Forma estándar de una desigualdad de primer grado."
+  },
+  {
+    "id": 109,
+    "pregunta": "En el número complejo $z = 5i$, ¿cuál es la parte real?",
+    "opciones": [
+      "5",
+      "$i$",
+      "0"
+    ],
+    "correcta": 2,
+    "justificacion": "Al no tener término independiente, la parte real es 0 (complejo puro)."
+  },
+  {
+    "id": 110,
+    "pregunta": "¿Qué sucede con el sentido de una desigualdad al sumar un número negativo en ambos miembros?",
+    "opciones": [
+      "Se invierte",
+      "Se mantiene igual",
+      "Se anula"
+    ],
+    "correcta": 1,
+    "justificacion": "La suma no altera el sentido; solo la multiplicación/división por negativos lo hace."
+  },
+  {
+    "id": 111,
+    "pregunta": "La factorización de una suma de cuadrados $a^2 + b^2$ en el conjunto de los Reales es:",
+    "opciones": [
+      "$(a+b)(a-b)$",
+      "$(a+b)^2$",
+      "No es factorizable en los Reales"
+    ],
+    "correcta": 2,
+    "justificacion": "No hay dos números reales iguales que multiplicados den un negativo para cancelar b²."
+  },
+  {
+    "id": 112,
+    "pregunta": "¿Cuál es el recíproco de $-3$?",
+    "opciones": [
+      "3",
+      "$\\frac{1}{3}$",
+      "$-\\frac{1}{3}$"
+    ],
+    "correcta": 2,
+    "justificacion": "El recíproco de x es 1/x, manteniendo el signo."
+  },
+  {
+    "id": 113,
+    "pregunta": "El intervalo $(-\\infty, 4]$ representa todos los números $x$ tales que:",
+    "opciones": [
+      "$x < 4$",
+      "$x \\le 4$",
+      "$x \\ge 4$"
+    ],
+    "correcta": 1,
+    "justificacion": "Menos infinito a 4 incluye a todos los menores o iguales a 4."
+  },
+  {
+    "id": 114,
+    "pregunta": "¿Qué nombre recibe el resultado de una división?",
+    "opciones": [
+      "Producto",
+      "Cociente",
+      "Diferencia"
+    ],
+    "correcta": 1,
+    "justificacion": "El cociente es el resultado de repartir el dividendo entre el divisor."
+  },
+  {
+    "id": 115,
+    "pregunta": "¿Cómo se llama la propiedad que dice que $a \\cdot 1 = a$?",
+    "opciones": [
+      "Elemento Neutro del producto",
+      "Inverso multiplicativo",
+      "Propiedad distributiva"
+    ],
+    "correcta": 0,
+    "justificacion": "El 1 no altera el valor en la multiplicación."
+  },
+  {
+    "id": 116,
+    "pregunta": "¿Cuál es el valor de $i^3$?",
+    "opciones": [
+      "$i$",
+      "$-1$",
+      "$-i$"
+    ],
+    "correcta": 2,
+    "justificacion": "i³ = i² * i = -1 * i = -i."
+  },
+  {
+    "id": 117,
+    "pregunta": "En la jerarquía de operaciones, ¿qué se resuelve después de los paréntesis?",
+    "opciones": [
+      "Potencias y raíces",
+      "Sumas y restas",
+      "Multiplicaciones"
+    ],
+    "correcta": 0,
+    "justificacion": "Orden: Paréntesis -> Potencias/Raíces -> Mult/Div -> Sumas/Restas."
+  },
+  {
+    "id": 118,
+    "pregunta": "El conjunto de los números enteros ($Z$) está incluido dentro de los Racionales ($Q$).",
+    "opciones": [
+      "Verdadero",
+      "Falso",
+      "Solo para números positivos"
+    ],
+    "correcta": 0,
+    "justificacion": "Cualquier entero n puede escribirse como n/1 (racional)."
+  },
+  {
+    "id": 119,
+    "pregunta": "¿Qué tipo de decimal es $0,333...$?",
+    "opciones": [
+      "Exacto",
+      "Periódico puro",
+      "Periódico mixto"
+    ],
+    "correcta": 1,
+    "justificacion": "El 3 se repite infinitamente justo después de la coma."
+  },
+  {
+    "id": 120,
+    "pregunta": "La expresión $\\sqrt{a^2}$ para cualquier número real $a$ es igual a:",
+    "opciones": [
+      "$a$",
+      "$|a|$ (valor absoluto)",
+      "$a^2$"
+    ],
+    "correcta": 1,
+    "justificacion": "Si a es negativo, la raíz del cuadrado lo devuelve positivo (valor absoluto)."
+  }
+]

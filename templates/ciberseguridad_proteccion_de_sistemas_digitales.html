@@ -13,7 +13,11 @@
                 }
         
         .boton-enlace {
-                display: inline-block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 20px;
                 padding: 10px 20px;
                 background-color: #ff5500;
                 color: black;
@@ -44,7 +48,8 @@
     <div class="container">
         <div class="content">
     <a class="boton-enlace" href="./informatica_arquitectura_sistemas.html">Ir al Quiz de Introducción a la Informática y Arquitectura de Sistemas</a>
-    </div>
+    <button onclick="history.back()">Volver atrás</button>
+</div>
     </div>
 </body>
 </html>

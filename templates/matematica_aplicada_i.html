@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación Matemática - Vista Completa</title>
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" 
+        onload="renderMathInElement(document.body);"></script>
+
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --bg: #f8fafc;
+            --success: #10b981;
+            --error: #ef4444;
+            --text: #334155;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container { max-width: 800px; margin: 0 auto; }
+
+        .header { text-align: center; margin-bottom: 40px; }
+
+        /* Contenedor de preguntas en columna */
+        #quiz-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .section-title {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            color: var(--primary);
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .paso {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+/* Solo muestra el que tenga la clase paso-activo */
+.paso-activo {
+    display: block;
+    opacity: 1;
+}
+
+        .paso-bloqueado {
+            opacity: 0.04;
+            pointer-events: none;
+            filter: blur(5px);
+            transition: all 0.5s ease;
+        }
+
+
+        .opciones-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        button.quiz-opt {
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        button.quiz-opt:hover:not(:disabled) {
+            border-color: var(--primary);
+            background: #f5f3ff;
+        }
+
+        button.correct { background: var(--success) !important; color: white; border-color: var(--success); }
+        button.incorrect { background: var(--error) !important; color: white; border-color: var(--error); }
+
+        .feedback {
+            padding: 15px;
+            border-radius: 8px;
+            background: #fef2f2;
+            border: 1px solid #fee2e2;
+            color: #991b1b;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+
+        /* Resultados */
+        #results-card {
+            text-align: center;
+            display: none;
+            border-top: 5px solid var(--primary);
+        }
+
+        .score-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 20px auto;
+        }
+
+        #btn-restart, #btn-finish {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Evaluación de Matemáticas</h1>
+        <p>Responde todas las secciones para obtener tu calificación final.</p>
+    </div>
+
+    <div id="quiz-container">
+        <!-- Se inyectan las 4 preguntas aquí -->
+    </div>
+
+    <div id="results-card" class="card">
+        <h2>Resultado del Test</h2>
+        <div class="score-circle" id="final-score">0</div>
+        <p id="score-text"></p>
+        <button id="btn-restart" onclick="location.reload()">Hacer otro test</button>
+    </div>
+
+    <div style="text-align: center;">
+        <button id="btn-finish" class="hidden" onclick="calcularNotaFinal()">Finalizar y Calificar</button>
+    </div>
+</div>
+
+<script src="../static/js/s_matematica_aplicada_i.js"></script>
+</body>
+</html>

@@ -1,0 +1,3507 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Resuelve la ecuación lineal: $3(x - 4) = 2x + 5$",
+        "pasos": [
+            {
+                "instruccion": "Aplicar la propiedad distributiva en el primer miembro:",
+                "opciones": ["$3x - 12 = 2x + 5$", "$3x - 4 = 2x + 5$", "$x - 12 = 2x + 5$"],
+                "correcta": 0
+            },
+            {
+                "instruccion": "Agrupar los términos con $x$ en el primer miembro y los números en el segundo:",
+                "opciones": ["$3x + 2x = 5 + 12$", "$3x - 2x = 5 + 12$", "$3x - 2x = 5 - 12$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Reducir términos semejantes para hallar el valor de $x$:",
+                "opciones": ["$x = 7$", "$x = 17$", "$x = 9$"],
+                "correcta": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "enunciado": "Factoriza completamente el trinomio: $x^2 - 7x + 10$",
+        "pasos": [
+            {
+                "instruccion": "Identificar dos números que multiplicados den $10$ y sumados den $-7$:",
+                "opciones": ["$5$ y $2$", "$-5$ y $-2$", "$-10$ y $1$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Escribir la expresión como producto de binomios $(x + a)(x + b)$:",
+                "opciones": ["$(x-5)(x-2)$", "$(x+5)(x+2)$", "$(x-7)(x+10)$"],
+                "correcta": 0
+            },
+            {
+                "instruccion": "Verificar el término central mediante el producto de medios y extremos:",
+                "opciones": ["$-2x - 5x = -7x$", "$2x + 5x = 7x$", "$-x - 10x = -11x$"],
+                "correcta": 0
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "enunciado": "Racionaliza el denominador de la expresión: $\\frac{2}{\\sqrt{5}}$",
+        "pasos": [
+            {
+                "instruccion": "Identificar el factor racionalizante (Caso 1):",
+                "opciones": ["$\\sqrt{2}$", "$5$", "$\\sqrt{5}$"],
+                "correcta": 2
+            },
+            {
+                "instruccion": "Multiplicar numerador y denominador por el factor racionalizante:",
+                "opciones": ["$\\frac{2 \\cdot 5}{\\sqrt{5} \\cdot 5}$", "$\\frac{2 \\cdot \\sqrt{5}}{\\sqrt{5} \\cdot \\sqrt{5}}$", "$\\frac{2}{\\sqrt{5} \\cdot \\sqrt{5}}$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Simplificar el denominador utilizando la propiedad $\\sqrt{a} \\cdot \\sqrt{a} = a$:",
+                "opciones": ["$\\frac{2\\sqrt{5}}{5}$", "$\\frac{2\\sqrt{5}}{25}$", "$\\frac{\\sqrt{10}}{5}$"],
+                "correcta": 0
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "enunciado": "Resuelve la ecuación cuadrática usando la fórmula general: $x^2 - 5x + 6 = 0$",
+        "pasos": [
+            {
+                "instruccion": "Identificar los coeficientes $a$, $b$ y $c$:",
+                "opciones": ["$a=1, b=5, c=6$", "$a=1, b=-5, c=6$", "$a=1, b=-5, c=-6$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Calcular el discriminante $D = b^2 - 4ac$:",
+                "opciones": ["$D = 25 - 24 = 1$", "$D = -25 - 24 = -49$", "$D = 25 + 24 = 49$"],
+                "correcta": 0
+            },
+            {
+                "instruccion": "Aplicar la fórmula $x = \\frac{-b \\pm \\sqrt{D}}{2a}$:",
+                "opciones": ["$x = \\frac{5 \\pm 1}{2}$", "$x = \\frac{-5 \\pm 1}{2}$", "$x = \\frac{5 \\pm 0}{2}$"],
+                "correcta": 0
+            },
+            {
+                "instruccion": "Determinar el conjunto solución:",
+                "opciones": ["$\\{2, 3\\}$", "$\\{1, 4\\}$", "$\\{-2, -3\\}$"],
+                "correcta": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "enunciado": "Simplifica la expresión con potencias: $\\frac{(x^3)^2 \\cdot x^4}{x^5}$",
+        "pasos": [
+            {
+                "instruccion": "Resolver la potencia de potencia $(x^3)^2$:",
+                "opciones": ["$x^5$", "$x^6$", "$x^9$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Multiplicar potencias de igual base en el numerador ($x^6 \\cdot x^4$):",
+                "opciones": ["$x^{24}$", "$x^2$", "$x^{10}$"],
+                "correcta": 2
+            },
+            {
+                "instruccion": "Dividir potencias de igual base ($x^{10} / x^5$):",
+                "opciones": ["$x^2$", "$x^{15}$", "$x^5$"],
+                "correcta": 2
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "enunciado": "Resuelve la suma de números complejos: $(3 + 4i) + (2 - 6i)$",
+        "pasos": [
+            {
+                "instruccion": "Agrupar las partes reales entre sí:",
+                "opciones": ["$3 + 2$", "$3 - 6$", "$4 - 6$"],
+                "correcta": 0
+            },
+            {
+                "instruccion": "Agrupar las partes imaginarias entre sí:",
+                "opciones": ["$(4 - 6)i$", "$(4 + 6)i$", "$(3 + 2)i$"],
+                "correcta": 0
+            },
+            {
+                "instruccion": "Escribir el resultado final en forma binómica:",
+                "opciones": ["$5 + 2i$", "$5 - 2i$", "$-1 - 2i$"],
+                "correcta": 1
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "enunciado": "Desarrolla el cuadrado de un binomio: $(2x + 3)^2$",
+        "pasos": [
+            {
+                "instruccion": "Calcular el cuadrado del primer término $(2x)^2$:",
+                "opciones": ["$2x^2$", "$4x^2$", "$4x$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Calcular el doble producto del primero por el segundo $2 \\cdot (2x) \\cdot (3)$:",
+                "opciones": ["$6x$", "$12x$", "$12x^2$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Calcular el cuadrado del segundo término $(3)^2$:",
+                "opciones": ["$6$", "$9$", "$27$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Unir los términos para obtener el trinomio final:",
+                "opciones": ["$4x^2 + 12x + 9$", "$4x^2 + 6x + 9$", "$2x^2 + 12x + 6$"],
+                "correcta": 0
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "enunciado": "Resuelve el sistema por sustitución: $\\begin{cases} x + y = 5 \\\\ 2x - y = 4 \\end{cases}$",
+        "pasos": [
+            {
+                "instruccion": "Despejar $y$ en la primera ecuación:",
+                "opciones": ["$y = x - 5$", "$y = 5 - x$", "$y = 5 + x$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Sustituir $y$ en la segunda ecuación:",
+                "opciones": ["$2x - (5 - x) = 4$", "$2x - 5 - x = 4$", "$2x + 5 - x = 4$"],
+                "correcta": 0
+            },
+            {
+                "instruccion": "Resolver para $x$ ($2x - 5 + x = 4$):",
+                "opciones": ["$x = 1$", "$x = 3$", "$x = 9$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Hallar $y$ sustituyendo $x=3$ en $y = 5 - x$:",
+                "opciones": ["$y = 2$", "$y = 8$", "$y = -2$"],
+                "correcta": 0
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "enunciado": "Extraer factores del radical: $\\sqrt{50}$",
+        "pasos": [
+            {
+                "instruccion": "Descomponer 50 en factores primos o como producto de un cuadrado perfecto:",
+                "opciones": ["$10 \\cdot 5$", "$25 \\cdot 2$", "$5 \\cdot 5 \\cdot 5$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Aplicar la propiedad distributiva de la raíz respecto al producto:",
+                "opciones": ["$\\sqrt{25} \\cdot \\sqrt{2}$", "$\\sqrt{5} \\cdot \\sqrt{10}$", "$25 \\cdot \\sqrt{2}$"],
+                "correcta": 0
+            },
+            {
+                "instruccion": "Resolver la raíz exacta y escribir el resultado:",
+                "opciones": ["$2\\sqrt{5}$", "$5\\sqrt{2}$", "$10\\sqrt{5}$"],
+                "correcta": 1
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "enunciado": "Resuelve la inecuación lineal: $2x - 4 < 6$",
+        "pasos": [
+            {
+                "instruccion": "Sumar 4 en ambos miembros de la desigualdad:",
+                "opciones": ["$2x < 2$", "$2x < 10$", "$2x < -2$"],
+                "correcta": 1
+            },
+            {
+                "instruccion": "Dividir por 2 en ambos miembros:",
+                "opciones": ["$x < 5$", "$x > 5$", "$x < 8$"],
+                "correcta": 0
+            },
+            {
+                "instruccion": "Expresar el resultado en notación de intervalo:",
+                "opciones": ["$[5, +\\infty)$", "$(-\\infty, 5)$", "$(-\\infty, 5]$"],
+                "correcta": 1
+            }
+        ]
+    },
+    {
+    "id": 101,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -3x + 2$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$2$ y $1$",
+          "$3$ y $1$",
+          "$2$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-2)(x-1)$",
+          "$(x+2)(x+1)$",
+          "$(x-2)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-2x-1x=-3x$",
+          "$2x+1x=-3x$",
+          "$-2x=-3x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{27}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$9$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{9}\\sqrt{3}$",
+          "$\\sqrt{27}+\\sqrt{2}$",
+          "$3\\sqrt{3}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$3\\sqrt{3}$",
+          "$3\\sqrt{3}$",
+          "$\\sqrt{27}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(3^3)(3^3)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$3$",
+          "$4$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$3^6$",
+          "$3^9$",
+          "$3^0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$3^6$",
+          "$3^3$",
+          "$3^3$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $3x + 9 = 15$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$3x = 6$",
+          "$3x = 24$",
+          "$x = 6$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 2$",
+          "$x = 3$",
+          "$x = 1$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$6+9=15$",
+          "$6+9=16$",
+          "$6-9=15$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -8x + 7$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$7$ y $1$",
+          "$8$ y $1$",
+          "$7$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-7)(x-1)$",
+          "$(x+7)(x+1)$",
+          "$(x-7)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-7x-1x=-8x$",
+          "$7x+1x=-8x$",
+          "$-7x=-8x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{8}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$4$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{4}\\sqrt{2}$",
+          "$\\sqrt{8}+\\sqrt{2}$",
+          "$2\\sqrt{2}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$2\\sqrt{2}$",
+          "$2\\sqrt{2}$",
+          "$\\sqrt{8}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(2^3)(2^3)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$2$",
+          "$3$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$2^6$",
+          "$2^9$",
+          "$2^0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$2^6$",
+          "$2^3$",
+          "$2^3$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $2x + 9 = 17$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$2x = 8$",
+          "$2x = 26$",
+          "$x = 8$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 4$",
+          "$x = 5$",
+          "$x = 3$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$8+9=17$",
+          "$8+9=18$",
+          "$8-9=17$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -16x + 63$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$9$ y $7$",
+          "$16$ y $1$",
+          "$63$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-9)(x-7)$",
+          "$(x+9)(x+7)$",
+          "$(x-63)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-9x-7x=-16x$",
+          "$9x+7x=-16x$",
+          "$-63x=-16x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{20}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$4$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{4}\\sqrt{5}$",
+          "$\\sqrt{20}+\\sqrt{2}$",
+          "$2\\sqrt{5}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$2\\sqrt{5}$",
+          "$5\\sqrt{2}$",
+          "$\\sqrt{20}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(5^4)(5^2)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$5$",
+          "$6$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$5^6$",
+          "$5^8$",
+          "$5^2$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$5^6$",
+          "$5^4$",
+          "$5^2$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $4x + 7 = 31$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$4x = 24$",
+          "$4x = 38$",
+          "$x = 24$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 6$",
+          "$x = 7$",
+          "$x = 5$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$24+7=31$",
+          "$24+7=32$",
+          "$24-7=31$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -8x + 15$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$5$ y $3$",
+          "$8$ y $1$",
+          "$15$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-5)(x-3)$",
+          "$(x+5)(x+3)$",
+          "$(x-15)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-5x-3x=-8x$",
+          "$5x+3x=-8x$",
+          "$-15x=-8x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{20}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$4$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{4}\\sqrt{5}$",
+          "$\\sqrt{20}+\\sqrt{2}$",
+          "$2\\sqrt{5}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$2\\sqrt{5}$",
+          "$5\\sqrt{2}$",
+          "$\\sqrt{20}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(4^2)(4^2)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$4$",
+          "$5$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$4^4$",
+          "$4^4$",
+          "$4^0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$4^4$",
+          "$4^2$",
+          "$4^2$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $8x + 2 = 50$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$8x = 48$",
+          "$8x = 52$",
+          "$x = 48$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 6$",
+          "$x = 7$",
+          "$x = 5$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$48+2=50$",
+          "$48+2=51$",
+          "$48-2=50$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -11x + 30$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$6$ y $5$",
+          "$11$ y $1$",
+          "$30$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-6)(x-5)$",
+          "$(x+6)(x+5)$",
+          "$(x-30)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-6x-5x=-11x$",
+          "$6x+5x=-11x$",
+          "$-30x=-11x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{8}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$4$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{4}\\sqrt{2}$",
+          "$\\sqrt{8}+\\sqrt{2}$",
+          "$2\\sqrt{2}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$2\\sqrt{2}$",
+          "$2\\sqrt{2}$",
+          "$\\sqrt{8}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(5^2)(5^5)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$5$",
+          "$6$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$5^7$",
+          "$5^10$",
+          "$5^-3$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$5^7$",
+          "$5^2$",
+          "$5^5$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $3x + 9 = 24$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$3x = 15$",
+          "$3x = 33$",
+          "$x = 15$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 5$",
+          "$x = 6$",
+          "$x = 4$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$15+9=24$",
+          "$15+9=25$",
+          "$15-9=24$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -10x + 24$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$6$ y $4$",
+          "$10$ y $1$",
+          "$24$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-6)(x-4)$",
+          "$(x+6)(x+4)$",
+          "$(x-24)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-6x-4x=-10x$",
+          "$6x+4x=-10x$",
+          "$-24x=-10x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{12}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$4$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{4}\\sqrt{3}$",
+          "$\\sqrt{12}+\\sqrt{2}$",
+          "$2\\sqrt{3}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$2\\sqrt{3}$",
+          "$3\\sqrt{2}$",
+          "$\\sqrt{12}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(2^3)(2^4)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$2$",
+          "$3$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$2^7$",
+          "$2^12$",
+          "$2^-1$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$2^7$",
+          "$2^3$",
+          "$2^4$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $3x + 4 = 10$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$3x = 6$",
+          "$3x = 14$",
+          "$x = 6$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 2$",
+          "$x = 3$",
+          "$x = 1$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$6+4=10$",
+          "$6+4=11$",
+          "$6-4=10$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -12x + 35$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$7$ y $5$",
+          "$12$ y $1$",
+          "$35$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-7)(x-5)$",
+          "$(x+7)(x+5)$",
+          "$(x-35)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-7x-5x=-12x$",
+          "$7x+5x=-12x$",
+          "$-35x=-12x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{50}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$25$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{25}\\sqrt{2}$",
+          "$\\sqrt{50}+\\sqrt{2}$",
+          "$5\\sqrt{2}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$5\\sqrt{2}$",
+          "$2\\sqrt{5}$",
+          "$\\sqrt{50}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(4^3)(4^4)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$4$",
+          "$5$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$4^7$",
+          "$4^12$",
+          "$4^-1$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$4^7$",
+          "$4^3$",
+          "$4^4$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $7x + 4 = 81$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$7x = 77$",
+          "$7x = 85$",
+          "$x = 77$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 11$",
+          "$x = 12$",
+          "$x = 10$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$77+4=81$",
+          "$77+4=82$",
+          "$77-4=81$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -7x + 10$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$5$ y $2$",
+          "$7$ y $1$",
+          "$10$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-5)(x-2)$",
+          "$(x+5)(x+2)$",
+          "$(x-10)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-5x-2x=-7x$",
+          "$5x+2x=-7x$",
+          "$-10x=-7x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{18}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$9$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{9}\\sqrt{2}$",
+          "$\\sqrt{18}+\\sqrt{2}$",
+          "$3\\sqrt{2}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$3\\sqrt{2}$",
+          "$2\\sqrt{3}$",
+          "$\\sqrt{18}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(6^3)(6^3)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$6$",
+          "$7$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$6^6$",
+          "$6^9$",
+          "$6^0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$6^6$",
+          "$6^3$",
+          "$6^3$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $9x + 7 = 52$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$9x = 45$",
+          "$9x = 59$",
+          "$x = 45$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 5$",
+          "$x = 6$",
+          "$x = 4$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$45+7=52$",
+          "$45+7=53$",
+          "$45-7=52$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -13x + 36$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$9$ y $4$",
+          "$13$ y $1$",
+          "$36$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-9)(x-4)$",
+          "$(x+9)(x+4)$",
+          "$(x-36)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-9x-4x=-13x$",
+          "$9x+4x=-13x$",
+          "$-36x=-13x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{32}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$16$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{16}\\sqrt{2}$",
+          "$\\sqrt{32}+\\sqrt{2}$",
+          "$4\\sqrt{2}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$4\\sqrt{2}$",
+          "$2\\sqrt{4}$",
+          "$\\sqrt{32}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(2^3)(2^2)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$2$",
+          "$3$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$2^5$",
+          "$2^6$",
+          "$2^1$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$2^5$",
+          "$2^3$",
+          "$2^2$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $7x + 7 = 42$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$7x = 35$",
+          "$7x = 49$",
+          "$x = 35$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 5$",
+          "$x = 6$",
+          "$x = 4$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$35+7=42$",
+          "$35+7=43$",
+          "$35-7=42$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "tema": "factorización",
+    "enunciado": "Factoriza el polinomio: $x^2 -6x + 8$",
+    "pasos": [
+      {
+        "instruccion": "Identificar dos números cuyo producto sea el término independiente:",
+        "opciones": [
+          "$2$ y $4$",
+          "$6$ y $1$",
+          "$8$ y $0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Escribir los binomios factorizados:",
+        "opciones": [
+          "$(x-2)(x-4)$",
+          "$(x+2)(x+4)$",
+          "$(x-8)(x+1)$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el término central al desarrollar:",
+        "opciones": [
+          "$-2x-4x=-6x$",
+          "$2x+4x=-6x$",
+          "$-8x=-6x$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "tema": "radicales",
+    "enunciado": "Simplifica el radical: $\\sqrt{32}$",
+    "pasos": [
+      {
+        "instruccion": "Identificar un cuadrado perfecto dentro del radicando:",
+        "opciones": [
+          "$16$",
+          "$3$",
+          "$7$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Separar el radical en producto de raíces:",
+        "opciones": [
+          "$\\sqrt{16}\\sqrt{2}$",
+          "$\\sqrt{32}+\\sqrt{2}$",
+          "$4\\sqrt{2}$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la raíz exacta:",
+        "opciones": [
+          "$4\\sqrt{2}$",
+          "$2\\sqrt{4}$",
+          "$\\sqrt{32}$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "tema": "potencias",
+    "enunciado": "Simplifica la expresión: $(3^5)(3^5)$",
+    "pasos": [
+      {
+        "instruccion": "Identificar que las bases son iguales:",
+        "opciones": [
+          "$3$",
+          "$4$",
+          "$No son iguales$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Aplicar la propiedad de suma de exponentes:",
+        "opciones": [
+          "$3^10$",
+          "$3^25$",
+          "$3^0$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Calcular el nuevo exponente:",
+        "opciones": [
+          "$3^10$",
+          "$3^5$",
+          "$3^5$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "tema": "ecuaciones cuadráticas",
+    "enunciado": "Ejercicio de práctica sobre ecuaciones cuadráticas.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "tema": "sistemas de ecuaciones",
+    "enunciado": "Ejercicio de práctica sobre sistemas de ecuaciones.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "tema": "números complejos",
+    "enunciado": "Ejercicio de práctica sobre números complejos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "tema": "productos notables",
+    "enunciado": "Ejercicio de práctica sobre productos notables.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "tema": "logaritmos",
+    "enunciado": "Ejercicio de práctica sobre logaritmos.",
+    "pasos": [
+      {
+        "instruccion": "Resolver el primer paso del procedimiento:",
+        "opciones": [
+          "Opción correcta",
+          "Opción incorrecta A",
+          "Opción incorrecta B"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Continuar el desarrollo algebraico:",
+        "opciones": [
+          "Resultado parcial correcto",
+          "Resultado parcial incorrecto",
+          "Procedimiento inválido"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Seleccionar el resultado final correcto:",
+        "opciones": [
+          "Resultado correcto",
+          "Resultado incorrecto A",
+          "Resultado incorrecto B"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "tema": "ecuaciones lineales",
+    "enunciado": "Resuelve la ecuación lineal: $9x + 3 = 48$",
+    "pasos": [
+      {
+        "instruccion": "Restar el término independiente en ambos miembros:",
+        "opciones": [
+          "$9x = 45$",
+          "$9x = 51$",
+          "$x = 45$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir ambos miembros por el coeficiente de x:",
+        "opciones": [
+          "$x = 5$",
+          "$x = 6$",
+          "$x = 4$"
+        ],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Verificar el resultado reemplazando en la ecuación original:",
+        "opciones": [
+          "$45+3=48$",
+          "$45+3=49$",
+          "$45-3=48$"
+        ],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "enunciado": "Resuelve la inecuación lineal: $3x - 5 > 7$",
+    "pasos": [
+      {
+        "instruccion": "Sumar 5 en ambos miembros de la desigualdad:",
+        "opciones": ["$3x > 2$", "$3x > 12$", "$3x < 12$"],
+        "correcta": 1
+      },
+      {
+        "instruccion": "Dividir por 3 en ambos miembros:",
+        "opciones": ["$x > 4$", "$x < 4$", "$x > 15$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Expresar el resultado en notación de intervalo:",
+        "opciones": ["$(-\\infty, 4)$", "$[4, +\\infty)$", "$(4, +\\infty)$"],
+        "correcta": 2
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "enunciado": "Resuelve la inecuación con coeficiente negativo: $-2x + 4 \\le 10$",
+    "pasos": [
+      {
+        "instruccion": "Restar 4 en ambos miembros:",
+        "opciones": ["$-2x \\le 6$", "$-2x \\le 14$", "$2x \\le 6$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir por -2 (recordar invertir el sentido de la desigualdad):",
+        "opciones": ["$x \\le -3$", "$x \\ge -3$", "$x \\ge 3$"],
+        "correcta": 1
+      },
+      {
+        "instruccion": "Seleccionar el intervalo correcto:",
+        "opciones": ["$[-3, +\\infty)$", "$(-\\infty, -3]$", "$(-3, +\\infty)$"],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "enunciado": "Resuelve la inecuación doble: $1 \\le 2x - 3 < 5$",
+    "pasos": [
+      {
+        "instruccion": "Sumar 3 en todas las partes de la inecuación:",
+        "opciones": ["$4 \\le 2x < 8$", "$-2 \\le 2x < 2$", "$4 \\le 2x < 2$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir todas las partes por 2:",
+        "opciones": ["$1 \\le x < 4$", "$2 \\le x < 4$", "$2 \\le x < 8$"],
+        "correcta": 1
+      },
+      {
+        "instruccion": "Expresar como intervalo:",
+        "opciones": ["$(2, 4]$", "$[2, 4)$", "$[2, 4]$"],
+        "correcta": 1
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "enunciado": "Resuelve la inecuación cuadrática: $x^2 - 9 < 0$",
+    "pasos": [
+      {
+        "instruccion": "Factorizar la diferencia de cuadrados:",
+        "opciones": ["$(x-3)(x-3) < 0$", "$(x-9)(x+1) < 0$", "$(x-3)(x+3) < 0$"],
+        "correcta": 2
+      },
+      {
+        "instruccion": "Identificar los puntos críticos:",
+        "opciones": ["$x = 3, x = -3$", "$x = 9, x = 0$", "$x = 3$ únicamente"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Determinar el intervalo donde el producto es negativo:",
+        "opciones": ["$(-\\infty, -3)$", "$(-3, 3)$", "$(3, +\\infty)$"],
+        "correcta": 1
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "enunciado": "Resuelve la inecuación: $\\frac{x}{2} + 1 \\ge 4$",
+    "pasos": [
+      {
+        "instruccion": "Restar 1 en ambos miembros:",
+        "opciones": ["$\\frac{x}{2} \\ge 3$", "$\\frac{x}{2} \\ge 5$", "$x \\ge 3$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Multiplicar por 2 en ambos miembros:",
+        "opciones": ["$x \\ge 1.5$", "$x \\ge 5$", "$x \\ge 6$"],
+        "correcta": 2
+      },
+      {
+        "instruccion": "Indicar el conjunto solución:",
+        "opciones": ["$(6, +\\infty)$", "$[6, +\\infty)$", "$(-\\infty, 6]$"],
+        "correcta": 1
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "enunciado": "Resuelve con valor absoluto: $|x| < 5$",
+    "pasos": [
+      {
+        "instruccion": "Aplicar la propiedad $|x| < a \\iff -a < x < a$:",
+        "opciones": ["$x < 5$ y $x < -5$", "$-5 < x < 5$", "$x > 5$ o $x < -5$"],
+        "correcta": 1
+      },
+      {
+        "instruccion": "Representar la solución en la recta real:",
+        "opciones": ["Valores a la derecha de 5", "Valores entre -5 y 5", "Valores a la izquierda de -5"],
+        "correcta": 1
+      },
+      {
+        "instruccion": "Escribir el intervalo:",
+        "opciones": ["$[-5, 5]$", "$(-5, 5)$", "$\\{5, -5\\}$"],
+        "correcta": 1
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "enunciado": "Resuelve con valor absoluto: $|x - 2| \\ge 3$",
+    "pasos": [
+      {
+        "instruccion": "Desglosar en las dos desigualdades correspondientes:",
+        "opciones": ["$x-2 \\ge 3$ ó $x-2 \\le -3$", "$-3 \\le x-2 \\le 3$", "$x-2 > 3$ ó $x-2 < 3$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Resolver la primera parte ($x - 2 \\ge 3$):",
+        "opciones": ["$x \\ge 1$", "$x \\ge 5$", "$x \\le 5$"],
+        "correcta": 1
+      },
+      {
+        "instruccion": "Resolver la segunda parte ($x - 2 \\le -3$):",
+        "opciones": ["$x \\le -1$", "$x \\le -5$", "$x \\ge -1$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Unir ambos intervalos:",
+        "opciones": ["$(-\\infty, -1] \\cup [5, +\\infty)$", "$[-1, 5]$", "$(-\\infty, 5] \\cup [-1, +\\infty)$"],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "enunciado": "Resuelve la inecuación: $5x + 2 < 3x + 10$",
+    "pasos": [
+      {
+        "instruccion": "Agrupar términos con $x$ a la izquierda:",
+        "opciones": ["$8x + 2 < 10$", "$2x + 2 < 10$", "$2x < 12$"],
+        "correcta": 1
+      },
+      {
+        "instruccion": "Despejar $x$ ($2x < 8$):",
+        "opciones": ["$x < 4$", "$x > 4$", "$x < 6$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Formato de intervalo:",
+        "opciones": ["$(4, +\\infty)$", "$(-\\infty, 4]$", "$(-\\infty, 4)$"],
+        "correcta": 2
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "enunciado": "Inecuación fraccionaria simple: $\\frac{x - 1}{3} \\le 2$",
+    "pasos": [
+      {
+        "instruccion": "Multiplicar por 3 (número positivo, no cambia el sentido):",
+        "opciones": ["$x - 1 \\le 6$", "$x - 1 \\le 5$", "$x - 3 \\le 2$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Sumar 1 en ambos miembros:",
+        "opciones": ["$x \\le 5$", "$x \\le 7$", "$x \\ge 7$"],
+        "correcta": 1
+      },
+      {
+        "instruccion": "Intervalo solución:",
+        "opciones": ["$(-\\infty, 7]$", "$[7, +\\infty)$", "$(-\\infty, 7)$"],
+        "correcta": 0
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "enunciado": "Resuelve la inecuación: $4(x + 1) > 2x + 8$",
+    "pasos": [
+      {
+        "instruccion": "Aplicar propiedad distributiva:",
+        "opciones": ["$4x + 1 > 2x + 8$", "$4x + 4 > 2x + 8$", "$x + 4 > 2x + 8$"],
+        "correcta": 1
+      },
+      {
+        "instruccion": "Restar $2x$ y restar 4 en ambos miembros:",
+        "opciones": ["$2x > 4$", "$6x > 12$", "$2x > 12$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Dividir por 2:",
+        "opciones": ["$x > 2$", "$x < 2$", "$x > 4$"],
+        "correcta": 0
+      },
+      {
+        "instruccion": "Expresar como intervalo:",
+        "opciones": ["$[2, +\\infty)$", "$(2, +\\infty)$", "$(-\\infty, 2)$"],
+        "correcta": 1
+      }
+    ]
+  }
+]
